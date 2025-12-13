@@ -1,10 +1,10 @@
-name: Sedot gcc
+name: Sedot clang
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - clang
 
 jobs:
   download-and-commit:
@@ -23,9 +23,9 @@ jobs:
         git lfs push --all origin
         git lfs track "*.tar.gz"
         git add .gitattributes
-        wget "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/heads/android12L-release.tar.gz"
-        tar xzvf android12L-release.tar.gz
-        rm android12L-release.tar.gz
+        wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android13-release/clang-r450784d.tar.gz"
+        tar xzvf clang-r450784d.tar.gz
+        rm aclang-r450784d.tar.gz
 
     - name: Configure Git
       run: |
@@ -34,6 +34,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add *.*
-        git commit -m "Add gcc toolchain v12L for arm 32 bit"
+        git add *
+        git commit -m "Add clang toolchain v13-release"
         git push
