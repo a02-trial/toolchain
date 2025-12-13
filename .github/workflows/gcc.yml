@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - gcc
 
 jobs:
   download-and-commit:
@@ -25,6 +25,7 @@ jobs:
         git add .gitattributes
         wget "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/heads/android12L-release.tar.gz"
         tar xzvf android12L-release.tar.gz
+        rm android12L-release.tar.gz
 
     - name: Configure Git
       run: |
