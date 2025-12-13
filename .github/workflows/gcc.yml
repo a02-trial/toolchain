@@ -25,7 +25,6 @@ jobs:
         git add .gitattributes
         wget "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/heads/android12L-release.tar.gz"
         tar xzvf android12L-release.tar.gz
-        rm android12L-release.tar.gz
 
     - name: Configure Git
       run: |
@@ -34,6 +33,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add *.*
+        git add *
         git commit -m "Add gcc toolchain v12L for arm 32 bit"
         git push
