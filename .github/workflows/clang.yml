@@ -25,7 +25,8 @@ jobs:
         git add .gitattributes
         wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android13-release/clang-r450784d.tar.gz"
         tar xzvf clang-r450784d.tar.gz
-        rm aclang-r450784d.tar.gz
+        rm clang-r450784d.tar.gz
+        rm android12L-release.tar.gz
 
     - name: Configure Git
       run: |
