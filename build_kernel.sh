@@ -19,10 +19,9 @@ export HOSTCC=clang
 export CROSS_COMPILE=arm-linux-androideabi-
 export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
-export CFLAGS_WARN=-Wunused-but-set-variable \
-                   -Wunused-command-line-argument
+export CFLAGS_WARN=-Wunused-but-set-variable
 export xxx="KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable \
-            CFLAGS_WARN=-Wunused-command-line-argument ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang"
+            ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang"
 make O=out $xxx clean
 make O=out $xxx mrproper
 make O=out $xxx a02_defconfig
