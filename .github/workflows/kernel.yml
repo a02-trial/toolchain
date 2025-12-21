@@ -25,7 +25,9 @@ jobs:
         git add .gitattributes
         wget "https://github.com/rdbckp/a022f_kernel/archive/refs/heads/master.zip"
         unzip master.zip
+        mv a022f_kernel-master/* .
         rm master.zip
+        rm -rf a022f_kernel-master
     - name: Configure Git
       run: |
         git config user.name "github-actions[bot]"
