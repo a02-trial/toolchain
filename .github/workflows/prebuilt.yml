@@ -1,4 +1,4 @@
-name: Build Kernel
+name: Prebuilt Kernel
 
 on: workflow_dispatch
 
