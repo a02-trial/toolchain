@@ -13,15 +13,14 @@ jobs:
         
       - name: Start Building Rookie Kernel
         run: |
-          sudo apt-get update && sudo apt-get upgrade
-          sudo apt-get install -y device-tree-compiler
           cd ${GITHUB_WORKSPACE}
           export KBUILD_BUILD_USER="${{ github.actor }}"
           export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
           chmod +x build_kernel.sh
           ./build_kernel.sh
           cd ${GITHUB_WORKSPACE}
-          cp out/arch/arm/boot .
+          ls
+          cp -r out/arch/arm/boot .
           rm -rf out
 
       - name: Configure Git
