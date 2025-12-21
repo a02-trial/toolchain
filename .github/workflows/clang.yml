@@ -23,7 +23,7 @@ jobs:
         git lfs push --all origin
         git lfs track "*.tar.gz"
         git add .gitattributes
-        wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android12L-release/clang-r383902.tar.gz"
+        wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz"
         tar xzvf clang-r383902.tar.gz
         rm clang-r383902.tar.gz
     - name: Configure Git
@@ -33,5 +33,5 @@ jobs:
     - name: Add and Commit file
       run: |
         git add *
-        git commit -m "Add clang toolchain v12L-release"
+        git commit -m "initial clang-r383902"
         git push
