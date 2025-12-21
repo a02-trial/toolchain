@@ -1,0 +1,15 @@
+arch/arm/boot/dts/mediatek/.mt6739.dtb.dts.tmp: \
+  ../arch/arm/boot/dts/mediatek/mt6739.dts \
+  ../scripts/dtc/include-prefixes/dt-bindings/clock/mt6739-clk.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/mmc/mt6739-msdc.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6739-pinfunc.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/gce/mt6739-gce.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/iio/mt635x-auxadc.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/mfd/mt6357-irq.h \
+  include/generated/autoconf.h \
+  ../arch/arm/boot/dts/mediatek/cust_mt6739_msdc.dtsi \
+  ../arch/arm/boot/dts/mediatek/trusty.dtsi \
+  ../arch/arm/boot/dts/mediatek/mt6357.dtsi
