@@ -20,12 +20,10 @@ jobs:
           export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
           chmod +x build_kernel.sh
           ./build_kernel.sh
+          cd ${GITHUB_WORKSPACE}
+          cp out/arch/arm/boot .
+          rm -rf out
 
-      - name: Set Properties
-        id: props
-        run: |
-          echo "date=$(TZ=Asia/Jakarta date +%Y%m%d-%I%M%p)" >> $GITHUB_OUTPUT
-       
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
