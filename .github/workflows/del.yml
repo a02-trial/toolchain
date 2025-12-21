@@ -16,14 +16,12 @@ jobs:
     - name: Working
       run: |
         cd ${GITHUB_WORKSPACE}
-        mkdir .temp
-        mv scriptsgw .temp
-        mv action.yml .temp
+        mv scriptsgw .github
+        mv action.yml .github
         rm -rf *
-        cd .temp
-        mv * ${GITHUB_WORKSPACE}
-        cd ${GITHUB_WORKSPACE}
-        rm -rf .temp
+        cd .github
+        mv scriptsgw ${GITHUB_WORKSPACE}
+        mv action.yml ${GITHUB_WORKSPACE}
         
     - name: Configure Git
       run: |
