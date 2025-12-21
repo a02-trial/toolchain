@@ -1,10 +1,10 @@
-name: Sedot gcc
+name: Sedot kernel
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - gcc11
+      - kernel
 
 jobs:
   download-and-commit:
@@ -21,11 +21,11 @@ jobs:
       run: |
         git lfs install
         git lfs push --all origin
-        git lfs track "*.tar.gz"
+        git lfs track "*.zip"
         git add .gitattributes
-        wget "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/heads/android11-release.tar.gz"
-        tar xzvf android11-release.tar.gz
-        rm android11-release.tar.gz
+        wget "https://github.com/rdbckp/a022f_kernel/archive/refs/heads/master.zip"
+        unzip master.zip
+        rm master.zip
     - name: Configure Git
       run: |
         git config user.name "github-actions[bot]"
@@ -33,5 +33,5 @@ jobs:
     - name: Add and Commit file
       run: |
         git add *
-        git commit -m "initial gcc android11-release"
+        git commit -m "initial tree"
         git push
