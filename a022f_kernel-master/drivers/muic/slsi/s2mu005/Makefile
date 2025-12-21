@@ -1,1 +1,0 @@
-obj-$(CONFIG_MUIC_S2MU005)		+= muic-core.o s2mu005-muic.o
