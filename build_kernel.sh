@@ -18,12 +18,19 @@ export CROSS_COMPILE=arm-linux-androideabi-
 export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 export CFLAGS_WARN=-Wunused-but-set-variable
-export xxx="KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable \
-            ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang"
+
+# Setup make Command
+make_fun() {
+	make O=out KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable \
+		ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang "$@"
+}
+
+# export xxx="KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang"
 # make O=out $xxx clean
 # make O=out $xxx mrproper
-make O=out $xxx a02_defconfig
-make O=out $xxx -j16 modules dtbs
+make_fun a02_defconfig
+# make O=out $xxx -j16 modules dtbs
+make_fun -j16 2>&1 modules dtbs | tee build.log 
 # make O=out $xxx modules_install
 
 # sudo apt-get install -y device-tree-compiler
