@@ -26,7 +26,9 @@ make O=out $xxx clean
 make O=out $xxx mrproper
 make O=out $xxx a02_defconfig
 # make O=out KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable ARCH=arm CC=clang HOSTCC=clang CROSS_COMPILE=arm-linux-androideabi- dtbs
-make O=out $xxx -j16 modules
+# make O=out $xxx -j16 modules
+ls
+echo $(nproc)
 # make O=out KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable ARCH=arm CC=clang HOSTCC=clang CROSS_COMPILE=arm-linux-androideabi- modules_install
 
 # dtc -I dts -O dtb -o mt6739.dtbo mt6739.dts
