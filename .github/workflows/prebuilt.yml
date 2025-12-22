@@ -3,7 +3,7 @@ name: Prebuilt Kernel
 on: workflow_dispatch
 
 jobs:
-  run-script-file-job:
+  run-script:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,7 +22,7 @@ jobs:
           chmod +x build_kernel.sh
           ./build_kernel.sh
           cd out
-          zip -r out.zip . -x source
+          zip -r out.zip . -x "*/source/*"
           mv out.zip ${GITHUB_WORKSPACE}
           cd ${GITHUB_WORKSPACE} && rm -rf out
 
