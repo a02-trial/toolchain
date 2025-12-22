@@ -16,7 +16,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /home/runner/work/a022f_kernel/a022f_kernel/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -26,7 +26,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /home/runner/work/a022f_kernel/a022f_kernel/toolchain/clang/lib64/clang/11.0.1/include/limits.h \
+  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/limits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -38,7 +38,7 @@ deps_scripts/kconfig/conf.o := \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/stdio.h \
-  /home/runner/work/a022f_kernel/a022f_kernel/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -110,7 +110,7 @@ deps_scripts/kconfig/conf.o := \
     $(wildcard include/config/config.h) \
   /usr/include/assert.h \
   ../scripts/kconfig/list.h \
-  /home/runner/work/a022f_kernel/a022f_kernel/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
   /usr/include/libintl.h \
   ../scripts/kconfig/lkc_proto.h \
 
