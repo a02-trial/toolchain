@@ -33,6 +33,7 @@ git clone https://git.kernel.org/pub/scm/utils/dtc/dtc.git
 cd dtc
 export PATH="${PWD}:${PATH}"
 make
+cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
 dtc -I dts -O dtb -o mt6739.dtb mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
