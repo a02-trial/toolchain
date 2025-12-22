@@ -26,7 +26,7 @@ make O=out $xxx a02_defconfig
 make O=out $xxx dtbs
 # make O=out $xxx -j16 modules
 # make O=out $xxx modules_install
-
+sudo apt-get install -y device-tree-compiler
 # cd out/arch/arm/boot/dts
 dtc -I dts -O dtb -o mt6739.dtb mt6739.dts
 
