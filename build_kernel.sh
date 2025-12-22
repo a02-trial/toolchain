@@ -30,7 +30,7 @@ make_fun() {
 # make O=out $xxx mrproper
 make_fun a02_defconfig
 # make O=out $xxx -j16 modules dtbs
-make_fun -j16 2>&1 modules dtbs | tee build.log 
+make_fun -j"$(nproc --all)" 2>&1 modules dtbs | tee build.log 
 # make O=out $xxx modules_install
 
 # sudo apt-get install -y device-tree-compiler
