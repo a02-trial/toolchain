@@ -51,5 +51,7 @@ make_fun -j"$(nproc --all)" 2>&1 modules dtbs | tee build.log
 # dtc -I dtb -O dts -o back-again.dts a02_eur_open_w00_r06.dtb
 # dtc -I dts -O dtb -o mt6739.dtb mt6739.dts
 
-# cp out/arch/arm/boot/zImage ${PWD}/zImage
+cd out/arch/arm/ && zip -r boot.zip boot
+mv boot.zip ${GITHUB_WORKSPACE}
+cd ${GITHUB_WORKSPACE} && rm -rf out
 # mv zImage boot.img-kernel
