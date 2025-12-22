@@ -34,8 +34,16 @@ cd dtc
 export PATH="${PWD}:${PATH}"
 make
 # cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
-cpp -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts -x assembler-with-cpp mt6739.dts | dtc -O dtb -o mt6739.dtb
+#cpp -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts -x assembler-with-cpp mt6739.dts | dtc -O dtb -o mt6739.dtb
 
+# USE CPP TO COMBINE DTS AND DTSI FILES INTO DTS SUITABLE FOR DTC COMMAND
+cpp -DLINUX_VERSION -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/bat_setting -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/k39tv1_bsp_titan_hamster -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung/a02 -undef -x assembler-with-cpp a02_eur_open_w00_r06.dts
+
+# DTC COMMAND TO PRODUCE DTB FROM DTS
+dtc -I dts -O dtb -o a02_eur_open_w00_r06.dtb -i ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung/a02 a02_eur_open_w00_r06.dts
+
+# DTC COMMAND TO PRODUCE DTS FROM DTB (FOR VERIFYING THE DESIRED RESULTS)
+dtc -I dtb -O dts -o back-again.dts a02_eur_open_w00_r06.dtb
 # dtc -I dts -O dtb -o mt6739.dtb mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
