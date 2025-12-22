@@ -13,11 +13,18 @@ jobs:
         
       - name: Start Building Rookie Kernel
         run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
           cd ${GITHUB_WORKSPACE}
+          rm -rf out
           export KBUILD_BUILD_USER="${{ github.actor }}"
           export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
           chmod +x build_kernel.sh
           ./build_kernel.sh
+          cd out
+          zip -r out.zip . -x source
+          mv out.zip ${GITHUB_WORKSPACE}
+          cd ${GITHUB_WORKSPACE} && rm -rf out
 
       - name: Configure Git
         run: |
