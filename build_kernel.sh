@@ -27,7 +27,7 @@ make O=out $xxx dtbs
 # make O=out $xxx -j16 modules
 # make O=out $xxx modules_install
 
-# cd ${GITHUB_WORKSPACE}/drivere/input/touchscreen
+# cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
 # dtc -I dts -O dtb -o mt6739.dtbo mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
