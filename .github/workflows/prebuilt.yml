@@ -1,32 +1,32 @@
 name: Prebuilt Kernel
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
 
 jobs:
-  run-script:
+  download-and-commit:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      packages: write
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      - name: Start Building Rookie Kernel
-        run: |
-          cd ${GITHUB_WORKSPACE}
-          export KBUILD_BUILD_USER="${{ github.actor }}"
-          export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
-          chmod +x build_kernel.sh
-          ./build_kernel.sh
-          
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "actions@github.com"
-        
-      - name: Add and Commit file
-        run: |
-          git add -A
-          git commit -m "commit"
-          git push
-        
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download the file
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        export KBUILD_BUILD_USER="${{ github.actor }}"
+        export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
+        chmod +x build_kernel.sh
+        ./build_kernel.sh
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "actions@github.com"
+    - name: Add and Commit file
+      run: |
+        git add *
+        git commit -m "initial tree"
+        git push
