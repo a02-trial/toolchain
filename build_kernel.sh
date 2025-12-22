@@ -27,8 +27,12 @@ make O=out $xxx dtbs
 # make O=out $xxx -j16 modules
 # make O=out $xxx modules_install
 
-cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
+cd ${GITHUB_WORKSPACE}
 sudo apt-get install -y device-tree-compiler
+git clone https://git.kernel.org/pub/scm/utils/dtc/dtc.git
+cd dtc
+export PATH="${PWD}:${PATH}"
+make
 dtc -I dts -O dtb -o mt6739.dtb mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
