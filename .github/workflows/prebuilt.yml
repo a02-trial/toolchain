@@ -18,10 +18,6 @@ jobs:
           export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
           chmod +x build_kernel.sh
           ./build_kernel.sh
-          cd ${GITHUB_WORKSPACE}
-          ls
-          cp -r out/arch/arm/boot .
-          rm -rf out
 
       - name: Configure Git
         run: |
