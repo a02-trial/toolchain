@@ -34,7 +34,7 @@ cd dtc
 export PATH="${PWD}:${PATH}"
 make
 # cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
-cpp -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung/a02 -x assembler-with-cpp a02_eur_open_w00_r06.dts | dtc -O dtb -o a02_eur_open_w00_r06.dtb
+cpp -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung/a02/a02_eur_open_w00_r06.dts -x assembler-with-cpp a02_eur_open_w00_r06.dts | dtc -O dtb -o a02_eur_open_w00_r06.dtb
 
 # USE CPP TO COMBINE DTS AND DTSI FILES INTO DTS SUITABLE FOR DTC COMMAND
 # cpp -DLINUX_VERSION -nostdinc -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/bat_setting -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/k39tv1_bsp_titan_hamster -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung -I ${GITHUB_WORKSPACE}/arch/arm/boot/dts/samsung/a02 -undef -x assembler-with-cpp a02_eur_open_w00_r06.dts
