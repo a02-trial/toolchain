@@ -2,8 +2,6 @@
 
 set -e -x
 cd ${GITHUB_WORKSPACE}
-rm -rf out
-mkdir -p out
 ls
 chmod +x -R .
 
@@ -25,12 +23,11 @@ export xxx="KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-
 make O=out $xxx clean
 make O=out $xxx mrproper
 make O=out $xxx a02_defconfig
-# make O=out KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable ARCH=arm CC=clang HOSTCC=clang CROSS_COMPILE=arm-linux-androideabi- dtbs
+make O=out $xxx dtbs
 # make O=out $xxx -j16 modules
-ls
-echo $(nproc)
-# make O=out KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y CFLAGS_WARN=-Wunused-but-set-variable ARCH=arm CC=clang HOSTCC=clang CROSS_COMPILE=arm-linux-androideabi- modules_install
+# make O=out $xxx modules_install
 
+# cd ${GITHUB_WORKSPACE}/drivere/input/touchscreen
 # dtc -I dts -O dtb -o mt6739.dtbo mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
