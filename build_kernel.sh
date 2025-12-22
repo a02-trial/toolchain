@@ -27,8 +27,8 @@ make O=out $xxx dtbs
 # make O=out $xxx -j16 modules
 # make O=out $xxx modules_install
 
-# cd ${GITHUB_WORKSPACE}/arch/arm/boot/dts
-# dtc -I dts -O dtb -o mt6739.dtbo mt6739.dts
+cd out/arch/arm/boot/dts
+dtc -I dts -O dtb -o mt6739.dtbo mt6739.dts
 
 # cp out/arch/arm/boot/zImage ${PWD}/zImage
 # mv zImage boot.img-kernel
