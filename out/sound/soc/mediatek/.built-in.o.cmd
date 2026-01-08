@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/built-in.o :=   rm -f sound/soc/mediatek/built-in.o; arm-linux-androideabi-ar rcSTPD sound/soc/mediatek/built-in.o sound/soc/mediatek/common/built-in.o sound/soc/mediatek/codec/mt6357/built-in.o sound/soc/mediatek/common_int/built-in.o sound/soc/mediatek/mt6739/built-in.o 

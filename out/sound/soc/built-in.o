@@ -1,0 +1,114 @@
+!<thin>
+//                                              2068      `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-cache.o/
+soc-utils.o/
+soc-pcm.o/
+soc-io.o/
+soc-devres.o/
+soc-ops.o/
+codecs/aw8896.o/
+mediatek/common/mtk-btcvsd.o/
+mediatek/codec/mt6357/mtk-soc-codec-6357.o/
+mediatek/codec/mt6357/mtk-auddrv-ana.o/
+mediatek/common_int/mtk-auddrv-devtree-parser.o/
+mediatek/common_int/mtk-soc-speaker-amp.o/
+mediatek/common_int/mtk-auddrv-afe.o/
+mediatek/common_int/mtk-auddrv-gpio.o/
+mediatek/common_int/mtk-soc-afe-control.o/
+mediatek/common_int/mtk-soc-pcm-common.o/
+mediatek/common_int/mtk-soc-pcm-capture.o/
+mediatek/common_int/mtk-soc-pcm-dl1.o/
+mediatek/common_int/mtk-soc-pcm-dummy.o/
+mediatek/common_int/mtk-soc-pcm-routing.o/
+mediatek/common_int/mtk-soc-pcm-capture2.o/
+mediatek/common_int/mtk-soc-pcm-i2s2-adc2.o/
+mediatek/common_int/mtk-soc-pcm-voice-md1.o/
+mediatek/common_int/mtk-soc-pcm-voice-md2.o/
+mediatek/common_int/mtk-soc-pcm-voice-md1-bt.o/
+mediatek/common_int/mtk-soc-pcm-voice-md2-bt.o/
+mediatek/common_int/mtk-soc-pcm-voice-usb.o/
+mediatek/common_int/mtk-soc-pcm-voice-usb-echoref.o/
+mediatek/common_int/mtk-soc-pcm-dl1-i2s0.o/
+mediatek/common_int/mtk-soc-pcm-dl1-i2s0Dl1.o/
+mediatek/common_int/mtk-soc-pcm-i2s0-awb.o/
+mediatek/common_int/mtk-soc-pcm-uldlloopback.o/
+mediatek/common_int/mtk-soc-pcm-dl2.o/
+mediatek/common_int/mtk-soc-pcm-deep-buffer-dl.o/
+mediatek/common_int/mtk-soc-pcm-mrgrx.o/
+mediatek/common_int/mtk-soc-pcm-mrgrx-awb.o/
+mediatek/common_int/mtk-soc-pcm-fm-i2s.o/
+mediatek/common_int/mtk-soc-pcm-fm-i2s-awb.o/
+mediatek/common_int/mtk-soc-pcm-dl1-awb.o/
+mediatek/common_int/mtk-soc-pcm-dl1-bt.o/
+mediatek/common_int/mtk-soc-pcm-bt-dai.o/
+mediatek/common_int/mtk-soc-dai-stub.o/
+mediatek/common_int/mtk-soc-dai-routing.o/
+mediatek/common_int/mtk-soc-codec-dummy.o/
+mediatek/common_int/mtk-soc-pcm-fmtx.o/
+mediatek/common_int/mtk-soc-tdm-capture.o/
+mediatek/common_int/mtk-soc-pcm-hp-impedance.o/
+mediatek/common_int/mtk-soc-machine.o/
+mediatek/mt6739/mtk-auddrv-clk.o/
+mediatek/mt6739/mtk-soc-afe-connection.o/
+mediatek/mt6739/mt6739-sound.o/
+samsung/sec_audio_sysfs.o/
+samsung/jack_accdet_sysfs_cb.o/
+/0              0           0     0     644     441092    `
+/12             0           0     0     644     328652    `
+/24             0           0     0     644     170756    `
+/36             0           0     0     644     115008    `
+/49             0           0     0     644     144712    `
+/62             0           0     0     644     242824    `
+/73             0           0     0     644     130812    `
+/83             0           0     0     644     125684    `
+/97             0           0     0     644     160324    `
+/108            0           0     0     644     221364    `
+/125            0           0     0     644     199932    `
+/155            0           0     0     644     333008    `
+/199            0           0     0     644     50924     `
+/239            0           0     0     644     88300     `
+/288            0           0     0     644     132604    `
+/331            0           0     0     644     96008     `
+/369            0           0     0     644     114164    `
+/408            0           0     0     644     306460    `
+/451            0           0     0     644     96972     `
+/493            0           0     0     644     154140    `
+/536            0           0     0     644     162180    `
+/575            0           0     0     644     128396    `
+/616            0           0     0     644     176256    `
+/659            0           0     0     644     144220    `
+/703            0           0     0     644     142944    `
+/748            0           0     0     644     149328    `
+/793            0           0     0     644     139584    `
+/838            0           0     0     644     140048    `
+/886            0           0     0     644     140228    `
+/934            0           0     0     644     166764    `
+/979            0           0     0     644     146528    `
+/1032           0           0     0     644     154972    `
+/1076           0           0     0     644     158292    `
+/1123           0           0     0     644     142288    `
+/1167           0           0     0     644     142992    `
+/1215           0           0     0     644     172300    `
+/1254           0           0     0     644     160040    `
+/1304           0           0     0     644     140520    `
+/1345           0           0     0     644     145288    `
+/1390           0           0     0     644     140712    `
+/1432           0           0     0     644     145380    `
+/1478           0           0     0     644     142480    `
+/1521           0           0     0     644     148612    `
+/1563           0           0     0     644     158704    `
+/1605           0           0     0     644     144560    `
+/1645           0           0     0     644     125656    `
+/1688           0           0     0     644     131360    `
+/1731           0           0     0     644     146360    `
+/1771           0           0     0     644     147908    `
+/1814           0           0     0     644     140076    `
+/1862           0           0     0     644     137876    `
+/1901           0           0     0     644     123804    `
+/1935           0           0     0     644     38780     `
+/1977           0           0     0     644     122680    `
+/2009           0           0     0     644     94588     `
+/2036           0           0     0     644     6092      `

@@ -1,0 +1,78 @@
+!<thin>
+//                                              902       `
+mtk-auddrv-devtree-parser.o/
+mtk-soc-speaker-amp.o/
+mtk-auddrv-afe.o/
+mtk-auddrv-gpio.o/
+mtk-soc-afe-control.o/
+mtk-soc-pcm-common.o/
+mtk-soc-pcm-capture.o/
+mtk-soc-pcm-dl1.o/
+mtk-soc-pcm-dummy.o/
+mtk-soc-pcm-routing.o/
+mtk-soc-pcm-capture2.o/
+mtk-soc-pcm-i2s2-adc2.o/
+mtk-soc-pcm-voice-md1.o/
+mtk-soc-pcm-voice-md2.o/
+mtk-soc-pcm-voice-md1-bt.o/
+mtk-soc-pcm-voice-md2-bt.o/
+mtk-soc-pcm-voice-usb.o/
+mtk-soc-pcm-voice-usb-echoref.o/
+mtk-soc-pcm-dl1-i2s0.o/
+mtk-soc-pcm-dl1-i2s0Dl1.o/
+mtk-soc-pcm-i2s0-awb.o/
+mtk-soc-pcm-uldlloopback.o/
+mtk-soc-pcm-dl2.o/
+mtk-soc-pcm-deep-buffer-dl.o/
+mtk-soc-pcm-mrgrx.o/
+mtk-soc-pcm-mrgrx-awb.o/
+mtk-soc-pcm-fm-i2s.o/
+mtk-soc-pcm-fm-i2s-awb.o/
+mtk-soc-pcm-dl1-awb.o/
+mtk-soc-pcm-dl1-bt.o/
+mtk-soc-pcm-bt-dai.o/
+mtk-soc-dai-stub.o/
+mtk-soc-dai-routing.o/
+mtk-soc-codec-dummy.o/
+mtk-soc-pcm-fmtx.o/
+mtk-soc-tdm-capture.o/
+mtk-soc-pcm-hp-impedance.o/
+mtk-soc-machine.o/
+/0              0           0     0     644     88300     `
+/29             0           0     0     644     132604    `
+/52             0           0     0     644     96008     `
+/70             0           0     0     644     114164    `
+/89             0           0     0     644     306460    `
+/112            0           0     0     644     96972     `
+/134            0           0     0     644     154140    `
+/157            0           0     0     644     162180    `
+/176            0           0     0     644     128396    `
+/197            0           0     0     644     176256    `
+/220            0           0     0     644     144220    `
+/244            0           0     0     644     142944    `
+/269            0           0     0     644     149328    `
+/294            0           0     0     644     139584    `
+/319            0           0     0     644     140048    `
+/347            0           0     0     644     140228    `
+/375            0           0     0     644     166764    `
+/400            0           0     0     644     146528    `
+/433            0           0     0     644     154972    `
+/457            0           0     0     644     158292    `
+/484            0           0     0     644     142288    `
+/508            0           0     0     644     142992    `
+/536            0           0     0     644     172300    `
+/555            0           0     0     644     160040    `
+/585            0           0     0     644     140520    `
+/606            0           0     0     644     145288    `
+/631            0           0     0     644     140712    `
+/653            0           0     0     644     145380    `
+/679            0           0     0     644     142480    `
+/702            0           0     0     644     148612    `
+/724            0           0     0     644     158704    `
+/746            0           0     0     644     144560    `
+/766            0           0     0     644     125656    `
+/789            0           0     0     644     131360    `
+/812            0           0     0     644     146360    `
+/832            0           0     0     644     147908    `
+/855            0           0     0     644     140076    `
+/883            0           0     0     644     137876    `

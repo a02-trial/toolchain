@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/codec/mt6357/built-in.o :=   rm -f sound/soc/mediatek/codec/mt6357/built-in.o; arm-linux-androideabi-ar rcSTPD sound/soc/mediatek/codec/mt6357/built-in.o sound/soc/mediatek/codec/mt6357/mtk-soc-codec-6357.o sound/soc/mediatek/codec/mt6357/mtk-auddrv-ana.o 
