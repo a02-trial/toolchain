@@ -30,6 +30,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add /home/runner/work/toolchain/toolchain/out/mm /home/runner/work/toolchain/toolchain/out/net /home/runner/work/toolchain/toolchain/out/security /home/runner/work/toolchain/toolchain/out/usr /home/runner/work/toolchain/toolchain/out/virt
+        git add . :(exclude)".config Makefile source arch block certs crypto drivers firmware fs include ipc lib scripts"
         git commit -m "test build 3"
         git push
