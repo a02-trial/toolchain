@@ -27,7 +27,7 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "actions@github.com"
-        export XX="/home/runner/work/toolchain/toolchain/out"
+        export XX="${GITHUB_WORKSPACE}/out"
 
     - name: Add and Commit file
       run: |
