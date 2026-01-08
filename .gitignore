@@ -1,6 +1,3 @@
-# Ignore all files ending with .log
-*.log
-
 # Ignore the 'bin' and 'obj' directories commonly found in .NET projects
 /home/runner/work/toolchain/toolchain/out/arch
 /home/runner/work/toolchain/toolchain/out/block
