@@ -27,10 +27,10 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "actions@github.com"
-        export XX="${GITHUB_WORKSPACE}/out"
 
     - name: Add and Commit file
       run: |
+        export XX="${GITHUB_WORKSPACE}/out"
         git add $XX/mm $XX/scripts $XX/security $XX/usr $XX/virt
         git commit -m "add 3rd"
         git push
