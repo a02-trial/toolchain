@@ -22,4 +22,4 @@ make_fun() {
 }
 
 make_fun a02_defconfig
-make_fun -j"$(nproc --all)" vmlinux
+# make_fun -j"$(nproc --all)" vmlinux
