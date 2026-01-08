@@ -23,6 +23,7 @@ jobs:
 
     - name: Download the file
       run: |
+        cd ${GITHUB_WORKSPACE}
         cd toolchain && mkdir clang && cd toolchain/clang
         wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz"
         tar xzvf clang-r383902.tar.gz
