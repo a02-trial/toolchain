@@ -1,0 +1,1 @@
+cmd_firmware/built-in.o :=   rm -f firmware/built-in.o; arm-linux-androideabi-ar rcSTPD firmware/built-in.o firmware/tsp_novatek/nt36525_a02_csot.bin.gen.o firmware/tsp_ilitek/ili9881x_a02.hex.gen.o firmware/tsp_ilitek/ili9881x_a02_boe.hex.gen.o firmware/tsp_ilitek/ili9882q_a02_boe.hex.gen.o 
