@@ -20,6 +20,7 @@ jobs:
         export KBUILD_BUILD_USER="${{ github.actor }}"
         export KBUILD_BUILD_HOST="${{ github.event.inputs.DEVICE_NAME }}"
         chmod +x ba.sh
+        export PATH="${PWD}/toolchain/clang/bin:${PWD}/toolchain/gcc/bin:${PATH}"
         ./ba.sh
 
     - name: Configure Git
