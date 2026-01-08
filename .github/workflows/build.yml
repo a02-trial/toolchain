@@ -31,6 +31,6 @@ jobs:
     - name: Add and Commit file
       run: |
         export XX="${GITHUB_WORKSPACE}/out"
-        git add $XX/mm $XX/scripts $XX/security $XX/usr $XX/virt
+        git add $XX/sound
         git commit -m "add 3rd"
         git push
