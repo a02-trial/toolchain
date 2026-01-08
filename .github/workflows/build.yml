@@ -30,6 +30,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add . :(exclude)".config Makefile source arch block certs crypto drivers firmware fs include ipc lib scripts"
+        git add *
         git commit -m "test build 3"
         git push
