@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/4.1/teec/built-in.o :=   rm -f drivers/misc/tzdev/4.1/teec/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/tzdev/4.1/teec/built-in.o drivers/misc/tzdev/4.1/teec/context.o drivers/misc/tzdev/4.1/teec/misc.o drivers/misc/tzdev/4.1/teec/session.o drivers/misc/tzdev/4.1/teec/shared_memory.o 

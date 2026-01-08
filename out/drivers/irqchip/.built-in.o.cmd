@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/built-in.o :=   rm -f drivers/irqchip/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/irqchip/built-in.o drivers/irqchip/irqchip.o drivers/irqchip/irq-gic-v3.o drivers/irqchip/irq-gic-common.o drivers/irqchip/irq-partition-percpu.o drivers/irqchip/irq-mtk-sysirq.o 

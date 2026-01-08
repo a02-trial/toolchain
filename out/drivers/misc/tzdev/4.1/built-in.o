@@ -1,0 +1,50 @@
+!<thin>
+//                                              394       `
+lib/circ_buf.o/
+lib/circ_buf_packet.o/
+core/cdev.o/
+core/cred.o/
+core/event.o/
+core/iwio.o/
+core/iwservice.o/
+core/iwsock.o/
+core/log.o/
+core/mem.o/
+core/notifier.o/
+core/ree_time.o/
+core/sysdep.o/
+core/tzdev.o/
+core/uiwsock.o/
+core/iwlog.o/
+core/kthread_pool_smpboot.o/
+core/platform.o/
+teec/context.o/
+teec/misc.o/
+teec/session.o/
+teec/shared_memory.o/
+debug/iw_boot_log.o/
+extensions/irs.o/
+/0              0           0     0     644     42652     `
+/16             0           0     0     644     10228     `
+/39             0           0     0     644     73148     `
+/52             0           0     0     644     101840    `
+/65             0           0     0     644     8828      `
+/79             0           0     0     644     77144     `
+/92             0           0     0     644     5088      `
+/110            0           0     0     644     171252    `
+/125            0           0     0     644     18716     `
+/137            0           0     0     644     121912    `
+/149            0           0     0     644     60848     `
+/166            0           0     0     644     29144     `
+/183            0           0     0     644     95452     `
+/198            0           0     0     644     139536    `
+/212            0           0     0     644     117016    `
+/228            0           0     0     644     74376     `
+/242            0           0     0     644     118000    `
+/271            0           0     0     644     82688     `
+/288            0           0     0     644     20352     `
+/304            0           0     0     644     92680     `
+/317            0           0     0     644     124680    `
+/333           /0           0     0     644     88064     `
+/355            0           0     0     644     78348     `
+/376            0           0     0     644     90288     `

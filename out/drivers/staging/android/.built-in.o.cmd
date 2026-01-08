@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/built-in.o :=   rm -f drivers/staging/android/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/staging/android/built-in.o drivers/staging/android/ion/built-in.o drivers/staging/android/ashmem.o drivers/staging/android/alarm-dev.o drivers/staging/android/lmkd_debug.o 

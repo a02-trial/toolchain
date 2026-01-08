@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/bt/bt_drv.o :=  rm -f drivers/misc/mediatek/connectivity/bt/bt_drv.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/connectivity/bt/bt_drv.o drivers/misc/mediatek/connectivity/bt/stp_chrdev_bt.o drivers/misc/mediatek/connectivity/bt/dbg_bt.o 

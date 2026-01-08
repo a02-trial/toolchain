@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/sub/common/wv511aaf/built-in.o :=   rm -f drivers/misc/mediatek/lens/sub/common/wv511aaf/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/sub/common/wv511aaf/built-in.o drivers/misc/mediatek/lens/sub/common/wv511aaf/WV511AAF.o 

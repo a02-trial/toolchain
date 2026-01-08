@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ram_console/built-in.o :=   rm -f drivers/misc/mediatek/ram_console/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/ram_console/built-in.o drivers/misc/mediatek/ram_console/mtk_ram_console.o 

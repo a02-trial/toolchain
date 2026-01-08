@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/timer/timesync/built-in.o :=   rm -f drivers/misc/mediatek/timer/timesync/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/timer/timesync/built-in.o drivers/misc/mediatek/timer/timesync/mtk_sys_timer.o drivers/misc/mediatek/timer/timesync/archcounter_timesync.o 

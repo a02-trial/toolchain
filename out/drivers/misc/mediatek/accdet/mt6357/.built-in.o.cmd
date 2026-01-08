@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/accdet/mt6357/built-in.o :=   rm -f drivers/misc/mediatek/accdet/mt6357/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/accdet/mt6357/built-in.o drivers/misc/mediatek/accdet/mt6357/accdet.o 

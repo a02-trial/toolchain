@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/mrdump/built-in.o :=   rm -f drivers/misc/mediatek/aee/mrdump/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/aee/mrdump/built-in.o drivers/misc/mediatek/aee/mrdump/mrdump.o 

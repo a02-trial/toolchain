@@ -1,0 +1,1 @@
+cmd_drivers/input/input_boost/input_booster_lkm.o :=  rm -f drivers/input/input_boost/input_booster_lkm.o; arm-linux-androideabi-ar rcSTPD drivers/input/input_boost/input_booster_lkm.o drivers/input/input_boost/evdev_booster.o drivers/input/input_boost/input_booster.o drivers/input/input_boost/input_booster_mtk.o 

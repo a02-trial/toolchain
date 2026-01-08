@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lcm/smcdsd_panel/built-in.o :=   rm -f drivers/misc/mediatek/lcm/smcdsd_panel/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lcm/smcdsd_panel/built-in.o drivers/misc/mediatek/lcm/smcdsd_panel/panels/built-in.o 

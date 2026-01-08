@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/leakage_table_v2/built-in.o :=   rm -f drivers/misc/mediatek/base/power/leakage_table_v2/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/base/power/leakage_table_v2/built-in.o drivers/misc/mediatek/base/power/leakage_table_v2/mtk_static_power.o drivers/misc/mediatek/base/power/leakage_table_v2/mtk_static_power_mt6739.o 

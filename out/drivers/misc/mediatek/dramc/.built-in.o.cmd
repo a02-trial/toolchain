@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/dramc/built-in.o :=   rm -f drivers/misc/mediatek/dramc/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/dramc/built-in.o drivers/misc/mediatek/dramc/dramc.o drivers/misc/mediatek/dramc/mtk_lastdramc.o drivers/misc/mediatek/dramc/mtk_memtest.o drivers/misc/mediatek/dramc/mtk_rshmoo.o drivers/misc/mediatek/dramc/mt6739/built-in.o 

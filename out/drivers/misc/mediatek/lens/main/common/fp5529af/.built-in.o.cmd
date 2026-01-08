@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/fp5529af/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/fp5529af/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main/common/fp5529af/built-in.o drivers/misc/mediatek/lens/main/common/fp5529af/FP5529AF.o 

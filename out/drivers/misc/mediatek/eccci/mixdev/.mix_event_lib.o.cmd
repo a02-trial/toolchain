@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o :=  rm -f drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o drivers/misc/mediatek/eccci/mixdev/mix_event.o 

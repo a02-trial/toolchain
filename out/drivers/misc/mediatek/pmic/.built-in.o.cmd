@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pmic/built-in.o :=   rm -f drivers/misc/mediatek/pmic/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/pmic/built-in.o drivers/misc/mediatek/pmic/common/built-in.o drivers/misc/mediatek/pmic/mt6357/built-in.o 

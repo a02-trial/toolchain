@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/src/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/src/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/cameraisp/src/built-in.o drivers/misc/mediatek/cameraisp/src/cameraisp_dummy.o drivers/misc/mediatek/cameraisp/src/mt6739/built-in.o 

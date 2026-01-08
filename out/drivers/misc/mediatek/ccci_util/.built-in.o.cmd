@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ccci_util/built-in.o :=   rm -f drivers/misc/mediatek/ccci_util/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/ccci_util/built-in.o drivers/misc/mediatek/ccci_util/ccci_util_lib.o drivers/misc/mediatek/ccci_util/ccci_util_dummy.o 

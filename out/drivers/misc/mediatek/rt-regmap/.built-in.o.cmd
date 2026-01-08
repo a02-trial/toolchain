@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/rt-regmap/built-in.o :=   rm -f drivers/misc/mediatek/rt-regmap/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/rt-regmap/built-in.o drivers/misc/mediatek/rt-regmap/rt-regmap.o 

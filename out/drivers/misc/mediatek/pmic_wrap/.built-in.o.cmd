@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pmic_wrap/built-in.o :=   rm -f drivers/misc/mediatek/pmic_wrap/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/pmic_wrap/built-in.o drivers/misc/mediatek/pmic_wrap/mtk_pmic_wrap.o drivers/misc/mediatek/pmic_wrap/mt6739/built-in.o 

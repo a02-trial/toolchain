@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/flashlight/built-in.o :=   rm -f drivers/misc/mediatek/flashlight/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/flashlight/built-in.o drivers/misc/mediatek/flashlight/flashlight.o drivers/misc/mediatek/flashlight/flashlights-rt4505.o drivers/misc/mediatek/flashlight/flashlights-s2mu005.o 

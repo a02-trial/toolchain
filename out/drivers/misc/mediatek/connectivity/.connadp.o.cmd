@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/connadp.o :=  rm -f drivers/misc/mediatek/connectivity/connadp.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/connectivity/connadp.o drivers/misc/mediatek/connectivity/common/connectivity_build_in_adapter.o drivers/misc/mediatek/connectivity/common/wmt_build_in_adapter.o 

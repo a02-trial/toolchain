@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/aed/aed.o :=  rm -f drivers/misc/mediatek/aee/aed/aed.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/aee/aed/aed.o drivers/misc/mediatek/aee/aed/aed-main.o drivers/misc/mediatek/aee/aed/aed-debug.o 

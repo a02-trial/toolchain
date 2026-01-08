@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/m4u/mt6739/built-in.o :=   rm -f drivers/misc/mediatek/m4u/mt6739/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/m4u/mt6739/built-in.o drivers/misc/mediatek/m4u/mt6739/m4u_hw.o 

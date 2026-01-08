@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/gpu/gpu_rgx/built-in.o :=   rm -f drivers/misc/mediatek/gpu/gpu_rgx/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/gpu/gpu_rgx/built-in.o drivers/misc/mediatek/gpu/gpu_rgx/m1.13ED5776728/built-in.o 

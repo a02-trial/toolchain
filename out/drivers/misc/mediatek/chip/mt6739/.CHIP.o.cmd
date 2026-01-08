@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/chip/mt6739/CHIP.o :=  rm -f drivers/misc/mediatek/chip/mt6739/CHIP.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/chip/mt6739/CHIP.o drivers/misc/mediatek/chip/mt6739/mtk_chip.o 

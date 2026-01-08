@@ -1,0 +1,1 @@
+cmd_drivers/soc/mediatek/built-in.o :=   rm -f drivers/soc/mediatek/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/soc/mediatek/built-in.o drivers/soc/mediatek/mtk-pmic-wrap.o drivers/soc/mediatek/mtk-cmdq-helper.o 

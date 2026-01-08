@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/s2mu005_charger/built-in.o :=   rm -f drivers/battery/charger/s2mu005_charger/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/battery/charger/s2mu005_charger/built-in.o drivers/battery/charger/s2mu005_charger/s2mu005_charger.o 

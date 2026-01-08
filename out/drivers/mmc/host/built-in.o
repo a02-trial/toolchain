@@ -1,0 +1,19 @@
+!<thin>
+//                                              238       `
+mediatek/ComboA/sd.o/
+mediatek/ComboA/dbg.o/
+mediatek/ComboA/mtk_sd_misc.o/
+mediatek/ComboA/msdc_tune.o/
+mediatek/ComboA/msdc_partition.o/
+mediatek/ComboA/mt6739/msdc_cust.o/
+mediatek/ComboA/autok.o/
+mediatek/ComboA/mt6739/autok_dvfs.o/
+
+/0              0           0     0     644     443224    `
+/22             0           0     0     644     208604    `
+/45             0           0     0     644     158988    `
+/76             0           0     0     644     158832    `
+/105            0           0     0     644     138244    `
+/139            0           0     0     644     215480    `
+/175            0           0     0     644     443788    `
+/200            0           0     0     644     159040    `

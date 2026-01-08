@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=   rm -f drivers/input/touchscreen/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/input/touchscreen/built-in.o drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/ili9881x/built-in.o 

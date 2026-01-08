@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/4.1/lib/built-in.o :=   rm -f drivers/misc/tzdev/4.1/lib/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/tzdev/4.1/lib/built-in.o drivers/misc/tzdev/4.1/lib/circ_buf.o drivers/misc/tzdev/4.1/lib/circ_buf_packet.o 

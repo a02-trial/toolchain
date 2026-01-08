@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/mtprof/mtprof.o :=  rm -f drivers/misc/mediatek/mtprof/mtprof.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/mtprof/mtprof.o drivers/misc/mediatek/mtprof/prof_main.o 

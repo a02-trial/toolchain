@@ -1,0 +1,38 @@
+!<thin>
+//                                              506       `
+mt65xx_lcm_list.o/
+lcm_common.o/
+lcm_gpio.o/
+lcm_i2c.o/
+lcm_pmic.o/
+lcm_util.o/
+smcdsd_panel/smcdsd_panel_init.o/
+smcdsd_panel/smcdsd_panel.o/
+smcdsd_panel/smcdsd_board.o/
+smcdsd_panel/smcdsd_notify.o/
+smcdsd_panel/smcdsd_abd.o/
+smcdsd_panel/panels/a02_nt36525b_ctc.o/
+smcdsd_panel/panels/a02_ili7806s_tianma.o/
+smcdsd_panel/panels/a02_nt36675_csot.o/
+smcdsd_panel/panels/a02_nt36525b_boe.o/
+smcdsd_panel/panels/a02_td4150.o/
+smcdsd_panel/panels/a02_ili9882n_boe.o/
+smcdsd_panel/panels/a02_ili9882q_boe.o/
+/0              0           0     0     644     23540     `
+/19             0           0     0     644     892       `
+/33             0           0     0     644     892       `
+/45             0           0     0     644     1808      `
+/56             0           0     0     644     5600      `
+/68             0           0     0     644     892       `
+/80             0           0     0     644     173328    `
+/114            0           0     0     644     144132    `
+/143            0           0     0     644     189980    `
+/172           /0           0     0     644     139796    `
+/202            0           0     0     644     231664    `
+/229            0           0     0     644     200408    `
+/269            0           0     0     644     177272    `
+/312            0           0     0     644     204480    `
+/352            0           0     0     644     205824    `
+/392            0           0     0     644     182280    `
+/426            0           0     0     644     195856    `
+/466            0           0     0     644     196580    `

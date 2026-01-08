@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/4.1/built-in.o :=   rm -f drivers/misc/tzdev/4.1/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/tzdev/4.1/built-in.o drivers/misc/tzdev/4.1/lib/built-in.o drivers/misc/tzdev/4.1/core/built-in.o drivers/misc/tzdev/4.1/teec/built-in.o drivers/misc/tzdev/4.1/debug/built-in.o drivers/misc/tzdev/4.1/extensions/built-in.o 

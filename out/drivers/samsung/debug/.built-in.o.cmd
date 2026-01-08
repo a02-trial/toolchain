@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/built-in.o :=   rm -f drivers/samsung/debug/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/samsung/debug/built-in.o drivers/samsung/debug/sec_debug.o drivers/samsung/debug/sec_debug_auto_comment.o drivers/samsung/debug/sec_debug_softdog.o 

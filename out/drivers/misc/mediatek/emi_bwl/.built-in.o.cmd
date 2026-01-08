@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/emi_bwl/built-in.o :=   rm -f drivers/misc/mediatek/emi_bwl/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/emi_bwl/built-in.o drivers/misc/mediatek/emi_bwl/mt6739/built-in.o 

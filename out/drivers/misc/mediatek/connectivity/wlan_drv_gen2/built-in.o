@@ -1,0 +1,151 @@
+!<thin>
+//                                              1304      `
+os/linux/plat/mt6739/plat_priv.o/
+common/dump.o/
+common/wlan_lib.o/
+common/wlan_oid.o/
+common/wlan_bow.o/
+common/debug.o/
+common/wlan_p2p.o/
+common/fwcfg.o/
+nic/nic.o/
+nic/nic_tx.o/
+nic/nic_rx.o/
+nic/nic_pwr_mgt.o/
+nic/cmd_buf.o/
+nic/que_mgt.o/
+nic/nic_cmd_event.o/
+nic/p2p_nic.o/
+os/linux/gl_init.o/
+os/linux/gl_kal.o/
+os/linux/gl_bow.o/
+os/linux/gl_wext.o/
+os/linux/gl_wext_priv.o/
+os/linux/gl_rst.o/
+os/linux/gl_cfg80211.o/
+os/linux/gl_vendor.o/
+os/linux/platform.o/
+os/linux/gl_sys.o/
+os/linux/gl_proc.o/
+os/linux/gl_p2p.o/
+os/linux/gl_p2p_cfg80211.o/
+os/linux/gl_p2p_init.o/
+os/linux/gl_p2p_kal.o/
+os/linux/hif/ahb/arm.o/
+os/linux/hif/ahb/ahb.o/
+os/linux/hif/ahb/mt6739/ahb_pdma.o/
+mgmt/ais_fsm.o/
+mgmt/aaa_fsm.o/
+mgmt/assoc.o/
+mgmt/auth.o/
+mgmt/bss.o/
+mgmt/cnm.o/
+mgmt/cnm_timer.o/
+mgmt/cnm_mem.o/
+mgmt/hem_mbox.o/
+mgmt/mib.o/
+mgmt/privacy.o/
+mgmt/rate.o/
+mgmt/rlm.o/
+mgmt/rlm_domain.o/
+mgmt/rlm_obss.o/
+mgmt/rlm_protection.o/
+mgmt/rsn.o/
+mgmt/saa_fsm.o/
+mgmt/scan.o/
+mgmt/scan_fsm.o/
+mgmt/sec_fsm.o/
+mgmt/swcr.o/
+mgmt/roaming_fsm.o/
+mgmt/hs20.o/
+mgmt/wnm.o/
+mgmt/qosmap.o/
+mgmt/tdls.o/
+mgmt/tdls_com.o/
+mgmt/stats.o/
+mgmt/p2p_assoc.o/
+mgmt/p2p_bss.o/
+mgmt/p2p_fsm.o/
+mgmt/p2p_func.o/
+mgmt/p2p_rlm.o/
+mgmt/p2p_rlm_obss.o/
+mgmt/p2p_scan.o/
+mgmt/p2p_ie.o/
+mgmt/p2p_state.o/
+mgmt/wmm.o/
+mgmt/wapi.o/
+
+/0              0           0     0     644     4712      `
+/34             0           0     0     644     13000     `
+/49             0           0     0     644     505060    `
+/68             0           0     0     644     585628    `
+/87             0           0     0     644     394436    `
+/106            0           0     0     644     376040    `
+/122            0           0     0     644     351804    `
+/141            0           0     0     644     321284    `
+/157            0           0     0     644     405476    `
+/168            0           0     0     644     357396    `
+/182            0           0     0     644     396144    `
+/196            0           0     0     644     322272    `
+/215            0           0     0     644     307960    `
+/230            0           0     0     644     438660    `
+/245           /0           0     0     644     356056    `
+/266            0           0     0     644     302384    `
+/281            0           0     0     644     451812    `
+/301            0           0     0     644     514468    `
+/320            0           0     0     644     336600    `
+/339            0           0     0     644     421588    `
+/359            0           0     0     644     428924    `
+/384            0           0     0     644     311912    `
+/403            0           0     0     644     444276    `
+/427            0           0     0     644     389104    `
+/449            0           0     0     644     227760    `
+/470            0           0     0     644     330756    `
+/489            0           0     0     644     372916    `
+/509            0           0     0     644     480028    `
+/528            0           0     0     644     401496    `
+/556            0           0     0     644     311576    `
+/580            0           0     0     644     385520    `
+/603            0           0     0     644     884       `
+/627            0           0     0     644     272736    `
+/651            0           0     0     644     222312    `
+/687            0           0     0     644     452092    `
+/703            0           0     0     644     313996    `
+/719            0           0     0     644     345752    `
+/733            0           0     0     644     329076    `
+/746            0           0     0     644     338228    `
+/758            0           0     0     644     331328    `
+/770            0           0     0     644     313576    `
+/788            0           0     0     644     332244    `
+/804            0           0     0     644     317092    `
+/821            0           0     0     644     3608      `
+/833            0           0     0     644     323688    `
+/849            0           0     0     644     14056     `
+/862            0           0     0     644     400320    `
+/874            0           0     0     644     343632    `
+/893            0           0     0     644     314232    `
+/910            0           0     0     644     896       `
+/933            0           0     0     644     396308    `
+/945            0           0     0     644     338108    `
+/961            0           0     0     644     425948    `
+/974            0           0     0     644     379472    `
+/991            0           0     0     644     321948    `
+/1007           0           0     0     644     348628    `
+/1020           0           0     0     644     322856    `
+/1040           0           0     0     644     888       `
+/1053           0           0     0     644     315684    `
+/1065           0           0     0     644     308044    `
+/1080           0           0     0     644     460732    `
+/1093           0           0     0     644     313672    `
+/1110           0           0     0     644     344596    `
+/1124           0           0     0     644     300256    `
+/1142           0           0     0     644     888       `
+/1158           0           0     0     644     402636    `
+/1174           0           0     0     644     451320    `
+/1191           0           0     0     644     323584    `
+/1207           0           0     0     644     308484    `
+/1228           0           0     0     644     330872    `
+/1245           0           0     0     644     316068    `
+/1260           0           0     0     644     318500    `
+/1278           0           0     0     644     364608    `
+/1290           0           0     0     644     309136    `

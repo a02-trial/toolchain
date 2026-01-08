@@ -1,0 +1,50 @@
+!<thin>
+//                                              974       `
+../common/v1/imgsensor.o/
+../common/v1/imgsensor_hw.o/
+../common/v1/imgsensor_i2c.o/
+../common/v1/imgsensor_legacy.o/
+../common/v1/imgsensor_proc.o/
+../common/v1/imgsensor_sensor_list.o/
+../common/sysfs/imgsensor_sysfs.o/
+../common/sysfs/imgsensor_vendor.o/
+../common/sysfs/crc32.o/
+../common/sysfs/imgsensor_vendor_rom_config.o/
+../common/sysfs/imgsensor_vendor_rom_config_aau_v02.o/
+../common/sysfs/imgsensor_eeprom_rear_imx258_v008.o/
+../common/sysfs/imgsensor_eeprom_rear2_gc02m1_v008.o/
+../common/sysfs/imgsensor_otp_front_gc5035_v008.o/
+imx258_mipi_raw/imx258_pdafotp.o/
+imx258_mipi_raw/imx258mipiraw_Sensor.o/
+gc02m1_mipi_raw/gc02m1mipiraw_Sensor.o/
+gc02m1_mipi_raw/gc02m1_eeprom.o/
+imgsensor_clk.o/
+camera_project/aau_v02/camera_hw/regulator/regulator.o/
+camera_project/aau_v02/camera_hw/gpio/gpio.o/
+camera_project/aau_v02/camera_hw/mclk/mclk.o/
+camera_project/aau_v02/camera_hw/imgsensor_cfg_table.o/
+camera_project/aau_v02/gc5035_mipi_raw/gc5035mipiraw_Sensor.o/
+/0              0           0     0     644     249456    `
+/26             0           0     0     644     124956    `
+/55            /0           0     0     644     104944    `
+/85             0           0     0     644     97000     `
+/118            0           0     0     644     140864    `
+/149            0           0     0     644     114676    `
+/187            0           0     0     644     265920    `
+/222            0           0     0     644     43828     `
+/258            0           0     0     644     4400      `
+/283            0           0     0     644     9876      `
+/330            0           0     0     644     10436     `
+/385            0           0     0     644     10588     `
+/438            0           0     0     644     10632     `
+/492            0           0     0     644     10620     `
+/543            0           0     0     644     7232      `
+/577            0           0     0     644     228232    `
+/617            0           0     0     644     92504     `
+/657           /0           0     0     644     9920      `
+/690           /0           0     0     644     86676     `
+/707            0           0     0     644     94660     `
+/763            0           0     0     644     93656     `
+/809            0           0     0     644     89884     `
+/855            0           0     0     644     8448      `
+/911            0           0     0     644     119432    `

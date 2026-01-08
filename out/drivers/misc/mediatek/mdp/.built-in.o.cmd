@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/mdp/built-in.o :=   rm -f drivers/misc/mediatek/mdp/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/mdp/built-in.o drivers/misc/mediatek/mdp/mdp_ioctl_ex.o drivers/misc/mediatek/mdp/mdp_m4u.o 

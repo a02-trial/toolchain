@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/dpe/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/dpe/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/cameraisp/dpe/built-in.o drivers/misc/mediatek/cameraisp/dpe/cameradpe_dummy.o 

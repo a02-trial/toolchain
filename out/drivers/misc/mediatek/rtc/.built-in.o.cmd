@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/rtc/built-in.o :=   rm -f drivers/misc/mediatek/rtc/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/rtc/built-in.o drivers/misc/mediatek/rtc/mtk_rtc_common.o drivers/misc/mediatek/rtc/mtk_rtc_hal_common.o drivers/misc/mediatek/rtc/mtk_rtc_debug.o drivers/misc/mediatek/rtc/mt6357/built-in.o 

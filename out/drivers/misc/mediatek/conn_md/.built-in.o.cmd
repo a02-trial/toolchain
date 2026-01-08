@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/conn_md/built-in.o :=   rm -f drivers/misc/mediatek/conn_md/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/conn_md/built-in.o drivers/misc/mediatek/conn_md/conn_md_bridge.o 

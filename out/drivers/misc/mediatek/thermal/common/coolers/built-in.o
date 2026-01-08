@@ -1,0 +1,15 @@
+!<thin>
+//                                              108       `
+mtk_ta.o/
+mtk_cooler_mutt.o/
+mtk_cooler_atm.o/
+mtk_cooler_dtm.o/
+mtk_cooler_sysrst.o/
+mtk_cooler_VR_FPS.o/
+
+/0              0           0     0     644     198480    `
+/10             0           0     0     644     159896    `
+/29             0           0     0     644     197096    `
+/47             0           0     0     644     101348    `
+/65             0           0     0     644     94744     `
+/86             0           0     0     644     100000    `

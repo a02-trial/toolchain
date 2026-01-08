@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main2/common/dw9718taf/built-in.o :=   rm -f drivers/misc/mediatek/lens/main2/common/dw9718taf/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main2/common/dw9718taf/built-in.o drivers/misc/mediatek/lens/main2/common/dw9718taf/DW9718TAF.o 

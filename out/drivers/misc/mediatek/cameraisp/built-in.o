@@ -1,0 +1,26 @@
+!<thin>
+//                                              282       `
+dip/cameradip_dummy.o/
+src/cameraisp_dummy.o/
+src/mt6739/camera_isp.o/
+src/mt6739/camera_sysram.o/
+owe/camera_owe_dummy.o/
+rsc/camera_rsc_dummy.o/
+rsc/engine_request.o/
+wpe/camerawpe_dummy.o/
+dpe/cameradpe_dummy.o/
+tsf/camera_tsf_dummy.o/
+mfb/camera_mfb_dummy.o/
+fdvt/fdvt_dummy.o/
+/0              0           0     0     644     896       `
+/23             0           0     0     644     896       `
+/46             0           0     0     644     864304    `
+/71            /0           0     0     644     125444    `
+/99             0           0     0     644     900       `
+/123            0           0     0     644     900       `
+/147            0           0     0     644     49572     `
+/169            0           0     0     644     896       `
+/192            0           0     0     644     896       `
+/215            0           0     0     644     900       `
+/239            0           0     0     644     900       `
+/263            0           0     0     644     892       `

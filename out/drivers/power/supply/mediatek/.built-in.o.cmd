@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/mediatek/built-in.o :=   rm -f drivers/power/supply/mediatek/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/power/supply/mediatek/built-in.o drivers/power/supply/mediatek/misc/built-in.o 

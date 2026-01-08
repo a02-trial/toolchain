@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/mcdi/mt6739/built-in.o :=   rm -f drivers/misc/mediatek/base/power/mcdi/mt6739/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/base/power/mcdi/mt6739/built-in.o drivers/misc/mediatek/base/power/mcdi/mt6739/mtk_mcdi_plat.o drivers/misc/mediatek/base/power/mcdi/mt6739/mtk_mcdi_state.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/fp5510e2af/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/fp5510e2af/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main/common/fp5510e2af/built-in.o drivers/misc/mediatek/lens/main/common/fp5510e2af/FP5510E2AF.o 

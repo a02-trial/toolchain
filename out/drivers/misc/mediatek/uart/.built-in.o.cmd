@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/uart/built-in.o :=   rm -f drivers/misc/mediatek/uart/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/uart/built-in.o drivers/misc/mediatek/uart/uart.o drivers/misc/mediatek/uart/mt6739/built-in.o 

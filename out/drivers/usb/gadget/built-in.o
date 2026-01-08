@@ -1,0 +1,52 @@
+!<thin>
+//                                              442       `
+usbstring.o/
+config.o/
+epautoconf.o/
+composite.o/
+functions.o/
+configfs.o/
+u_f.o/
+udc/core.o/
+udc/trace.o/
+function/f_acm.o/
+function/u_serial.o/
+function/f_serial.o/
+function/u_ether.o/
+function/f_rndis.o/
+function/rndis.o/
+function/f_fs.o/
+function/f_midi.o/
+function/f_hid.o/
+function/f_dm.o/
+function/f_mtp_samsung.o/
+function/f_ptp.o/
+function/f_audio_source.o/
+function/f_accessory.o/
+function/f_conn_gadget.o/
+function/multi_config.o/
+/0              0           0     0     644     6152      `
+/13             0           0     0     644     103980    `
+/23             0           0     0     644     88804     `
+/37             0           0     0     644     203408    `
+/50             0           0     0     644     100128    `
+/63             0           0     0     644     289764    `
+/75             0           0     0     644     8472      `
+/82             0           0     0     644     235596    `
+/94             0           0     0     644     156100    `
+/107            0           0     0     644     117464    `
+/125            0           0     0     644     161380    `
+/146            0           0     0     644     102900    `
+/167            0           0     0     644     256372    `
+/187            0           0     0     644     202552    `
+/207            0           0     0     644     201340    `
+/225            0           0     0     644     315920    `
+/242            0           0     0     644     157104    `
+/261            0           0     0     644     160352    `
+/279            0           0     0     644     109776    `
+/296           /0           0     0     644     233588    `
+/322            0           0     0     644     92740     `
+/340            0           0     0     644     151840    `
+/367            0           0     0     644     200152    `
+/391           /0           0     0     644     211044    `
+/417            0           0     0     644     97776     `

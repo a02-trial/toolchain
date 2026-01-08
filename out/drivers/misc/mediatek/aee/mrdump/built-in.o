@@ -1,0 +1,17 @@
+!<thin>
+//                                              112       `
+mrdump_control.o/
+mrdump_hw.o/
+mrdump_full.o/
+mrdump_key_setup.o/
+mrdump_mini.o/
+mrdump_panic.o/
+mrdump_arm.o/
+
+/0              0           0     0     644     13928     `
+/18             0           0     0     644     6132      `
+/31             0           0     0     644     108572    `
+/46             0           0     0     644     90848     `
+/66             0           0     0     644     173528    `
+/81             0           0     0     644     134680    `
+/97             0           0     0     644     4008      `

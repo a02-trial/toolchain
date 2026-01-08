@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/debug_latch/built-in.o :=   rm -f drivers/misc/mediatek/debug_latch/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/debug_latch/built-in.o drivers/misc/mediatek/debug_latch/lastbus/built-in.o 

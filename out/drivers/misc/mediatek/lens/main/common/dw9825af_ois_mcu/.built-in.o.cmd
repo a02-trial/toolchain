@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/dw9825af_ois_mcu/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/dw9825af_ois_mcu/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main/common/dw9825af_ois_mcu/built-in.o drivers/misc/mediatek/lens/main/common/dw9825af_ois_mcu/DW9825AF_OIS_MCU.o 

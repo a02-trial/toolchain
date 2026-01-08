@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/video/common/layering_rule_base/v1/built-in.o :=   rm -f drivers/misc/mediatek/video/common/layering_rule_base/v1/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/video/common/layering_rule_base/v1/built-in.o drivers/misc/mediatek/video/common/layering_rule_base/v1/layering_rule_base.o 

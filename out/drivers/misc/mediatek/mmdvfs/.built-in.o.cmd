@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/mmdvfs/built-in.o :=   rm -f drivers/misc/mediatek/mmdvfs/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/mmdvfs/built-in.o drivers/misc/mediatek/mmdvfs/mmdvfs_pmqos.o drivers/misc/mediatek/mmdvfs/mmdvfs_plat_default.o 

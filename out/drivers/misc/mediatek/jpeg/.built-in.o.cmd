@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/jpeg/built-in.o :=   rm -f drivers/misc/mediatek/jpeg/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/jpeg/built-in.o drivers/misc/mediatek/jpeg/v2/built-in.o 

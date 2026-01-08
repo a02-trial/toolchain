@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/trusted_mem/built-in.o :=   rm -f drivers/misc/mediatek/trusted_mem/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/trusted_mem/built-in.o drivers/misc/mediatek/trusted_mem/trusted_mem.o drivers/misc/mediatek/trusted_mem/tee_devices.o drivers/misc/mediatek/trusted_mem/tee_impl.o 

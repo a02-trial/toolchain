@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/c2k_usb/c2k_usb.o :=  rm -f drivers/misc/mediatek/c2k_usb/c2k_usb.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/c2k_usb/c2k_usb.o drivers/misc/mediatek/c2k_usb/f_rawbulk.o drivers/misc/mediatek/c2k_usb/rawbulk.o drivers/misc/mediatek/c2k_usb/rawbulk_transfer.o 

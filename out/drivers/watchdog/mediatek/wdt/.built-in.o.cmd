@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/mediatek/wdt/built-in.o :=   rm -f drivers/watchdog/mediatek/wdt/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/watchdog/mediatek/wdt/built-in.o drivers/watchdog/mediatek/wdt/common/built-in.o 

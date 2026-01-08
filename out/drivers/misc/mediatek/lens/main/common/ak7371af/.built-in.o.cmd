@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/ak7371af/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/ak7371af/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main/common/ak7371af/built-in.o drivers/misc/mediatek/lens/main/common/ak7371af/AK7371AF.o 

@@ -1,0 +1,1 @@
+cmd_drivers/sensors/built-in.o :=   rm -f drivers/sensors/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/sensors/built-in.o drivers/sensors/isg5320a_a02.o drivers/sensors/isg5320a_sub_a02.o drivers/sensors/sensors_core.o drivers/sensors/lis2ds_core_a02.o drivers/sensors/lis2ds_i2c_a02.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cam_cal/src/built-in.o :=   rm -f drivers/misc/mediatek/cam_cal/src/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/cam_cal/src/built-in.o drivers/misc/mediatek/cam_cal/src/mt6739/built-in.o 

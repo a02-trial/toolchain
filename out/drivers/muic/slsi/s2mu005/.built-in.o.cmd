@@ -1,0 +1,1 @@
+cmd_drivers/muic/slsi/s2mu005/built-in.o :=   rm -f drivers/muic/slsi/s2mu005/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/muic/slsi/s2mu005/built-in.o drivers/muic/slsi/s2mu005/muic-core.o drivers/muic/slsi/s2mu005/s2mu005-muic.o 

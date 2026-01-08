@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/eccci/mt6739/ccci.o :=  rm -f drivers/misc/mediatek/eccci/mt6739/ccci.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/eccci/mt6739/ccci.o drivers/misc/mediatek/eccci/mt6739/ccci_platform.o drivers/misc/mediatek/eccci/mt6739/md_sys1_platform.o drivers/misc/mediatek/eccci/mt6739/ccif_c2k_platform.o 

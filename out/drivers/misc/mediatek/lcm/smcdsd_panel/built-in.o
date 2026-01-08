@@ -1,0 +1,26 @@
+!<thin>
+//                                              270       `
+smcdsd_panel_init.o/
+smcdsd_panel.o/
+smcdsd_board.o/
+smcdsd_notify.o/
+smcdsd_abd.o/
+panels/a02_nt36525b_ctc.o/
+panels/a02_ili7806s_tianma.o/
+panels/a02_nt36675_csot.o/
+panels/a02_nt36525b_boe.o/
+panels/a02_td4150.o/
+panels/a02_ili9882n_boe.o/
+panels/a02_ili9882q_boe.o/
+/0              0           0     0     644     173328    `
+/21             0           0     0     644     144132    `
+/37             0           0     0     644     189980    `
+/53            /0           0     0     644     139796    `
+/70             0           0     0     644     231664    `
+/84             0           0     0     644     200408    `
+/111            0           0     0     644     177272    `
+/141            0           0     0     644     204480    `
+/168            0           0     0     644     205824    `
+/195            0           0     0     644     182280    `
+/216            0           0     0     644     195856    `
+/243            0           0     0     644     196580    `

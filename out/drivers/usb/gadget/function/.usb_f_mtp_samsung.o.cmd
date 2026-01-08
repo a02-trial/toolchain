@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_mtp_samsung.o :=  rm -f drivers/usb/gadget/function/usb_f_mtp_samsung.o; arm-linux-androideabi-ar rcSTPD drivers/usb/gadget/function/usb_f_mtp_samsung.o drivers/usb/gadget/function/f_mtp_samsung.o 

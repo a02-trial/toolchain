@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/4.1/debug/built-in.o :=   rm -f drivers/misc/tzdev/4.1/debug/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/tzdev/4.1/debug/built-in.o drivers/misc/tzdev/4.1/debug/iw_boot_log.o 

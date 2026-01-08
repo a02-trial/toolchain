@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/video/common/pwm10/built-in.o :=   rm -f drivers/misc/mediatek/video/common/pwm10/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/video/common/pwm10/built-in.o drivers/misc/mediatek/video/common/pwm10/ddp_pwm.o 

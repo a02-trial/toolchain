@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/eccci/hif/built-in.o :=   rm -f drivers/misc/mediatek/eccci/hif/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/eccci/hif/built-in.o drivers/misc/mediatek/eccci/hif/ccci_hif_all.o 

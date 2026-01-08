@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/freqhopping/fhctl_new/fhctl.o :=  rm -f drivers/misc/mediatek/freqhopping/fhctl_new/fhctl.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/freqhopping/fhctl_new/fhctl.o drivers/misc/mediatek/freqhopping/fhctl_new/clk-fhctl.o drivers/misc/mediatek/freqhopping/fhctl_new/clk-fhctl-ap.o drivers/misc/mediatek/freqhopping/fhctl_new/clk-fhctl-pll.o 

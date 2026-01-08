@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/log_store/built-in.o :=   rm -f drivers/misc/mediatek/log_store/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/log_store/built-in.o drivers/misc/mediatek/log_store/log_store.o 

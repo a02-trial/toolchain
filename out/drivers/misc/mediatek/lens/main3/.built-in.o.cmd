@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main3/built-in.o :=   rm -f drivers/misc/mediatek/lens/main3/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/lens/main3/built-in.o drivers/misc/mediatek/lens/main3/main3_lens.o drivers/misc/mediatek/lens/main3/common/bu24253af/built-in.o drivers/misc/mediatek/lens/main3/common/gt9772af/built-in.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/usb20/mt6739/built-in.o :=   rm -f drivers/misc/mediatek/usb20/mt6739/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/usb20/mt6739/built-in.o drivers/misc/mediatek/usb20/mt6739/usb20.o drivers/misc/mediatek/usb20/mt6739/usb20_phy.o drivers/misc/mediatek/usb20/mt6739/usb20_host.o 

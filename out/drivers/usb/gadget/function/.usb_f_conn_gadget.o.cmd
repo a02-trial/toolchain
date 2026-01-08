@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_conn_gadget.o :=  rm -f drivers/usb/gadget/function/usb_f_conn_gadget.o; arm-linux-androideabi-ar rcSTPD drivers/usb/gadget/function/usb_f_conn_gadget.o drivers/usb/gadget/function/f_conn_gadget.o 

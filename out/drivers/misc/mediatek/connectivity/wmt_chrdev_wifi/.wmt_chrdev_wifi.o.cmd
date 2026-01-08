@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/wmt_chrdev_wifi.o :=  rm -f drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/wmt_chrdev_wifi.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/wmt_chrdev_wifi.o drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/wmt_cdev_wifi.o 

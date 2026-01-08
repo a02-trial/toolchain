@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/boot_reason/BOOT_REASON.o :=  rm -f drivers/misc/mediatek/boot_reason/BOOT_REASON.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/boot_reason/BOOT_REASON.o drivers/misc/mediatek/boot_reason/mtk_boot_reason.o 

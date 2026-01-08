@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/emi_mpu/mt6739/built-in.o :=   rm -f drivers/misc/mediatek/emi_mpu/mt6739/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/emi_mpu/mt6739/built-in.o drivers/misc/mediatek/emi_mpu/mt6739/emi_mpu.o 

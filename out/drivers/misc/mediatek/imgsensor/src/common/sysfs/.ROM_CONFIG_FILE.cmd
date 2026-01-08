@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/imgsensor/src/mt6739/../common/sysfs/ROM_CONFIG_FILE :=  rm -f drivers/misc/mediatek/imgsensor/src/mt6739/../common/sysfs/ROM_CONFIG_FILE; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/imgsensor/src/mt6739/../common/sysfs/ROM_CONFIG_FILE drivers/misc/mediatek/imgsensor/src/mt6739/../common/sysfs/imgsensor_vendor_rom_config_aau_v02.o 

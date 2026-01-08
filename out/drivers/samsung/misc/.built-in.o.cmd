@@ -1,0 +1,1 @@
+cmd_drivers/samsung/misc/built-in.o :=   rm -f drivers/samsung/misc/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/samsung/misc/built-in.o drivers/samsung/misc/sec_log.o drivers/samsung/misc/sec_bootstat.o drivers/samsung/misc/vbus_notifier.o 

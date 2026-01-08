@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mediatek/built-in.o :=   rm -f drivers/input/keyboard/mediatek/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/input/keyboard/mediatek/built-in.o drivers/input/keyboard/mediatek/kpd.o drivers/input/keyboard/mediatek/mt6739/built-in.o 

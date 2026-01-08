@@ -1,0 +1,11 @@
+!<thin>
+//                                              80        `
+mtk_rtc_common.o/
+mtk_rtc_hal_common.o/
+mtk_rtc_debug.o/
+mt6357/mtk_rtc_hal.o/
+
+/0              0           0     0     644     135972    `
+/18             0           0     0     644     33584     `
+/40            /0           0     0     644     71848     `
+/57             0           0     0     644     111528    `

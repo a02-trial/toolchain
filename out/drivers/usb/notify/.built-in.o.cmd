@@ -1,0 +1,1 @@
+cmd_drivers/usb/notify/built-in.o :=   rm -f drivers/usb/notify/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/usb/notify/built-in.o drivers/usb/notify/usb_notify_layer.o drivers/usb/notify/usb_notifier.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/fmradio_drv/built-in.o :=   rm -f drivers/misc/mediatek/connectivity/fmradio_drv/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/connectivity/fmradio_drv/built-in.o drivers/misc/mediatek/connectivity/fmradio_drv/fmradio_drv.o drivers/misc/mediatek/connectivity/fmradio_drv/dummy.o 

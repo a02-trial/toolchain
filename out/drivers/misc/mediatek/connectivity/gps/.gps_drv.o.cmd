@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/gps/gps_drv.o :=  rm -f drivers/misc/mediatek/connectivity/gps/gps_drv.o; arm-linux-androideabi-ar rcSTPD drivers/misc/mediatek/connectivity/gps/gps_drv.o drivers/misc/mediatek/connectivity/gps/stp_chrdev_gps.o 

@@ -1,0 +1,1 @@
+cmd_drivers/muic/common/built-in.o :=   rm -f drivers/muic/common/built-in.o; arm-linux-androideabi-ar rcSTPD drivers/muic/common/built-in.o drivers/muic/common/muic_notifier.o drivers/muic/common/muic_manager.o 
