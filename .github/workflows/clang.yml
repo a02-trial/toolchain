@@ -14,13 +14,20 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Download the file
+    - name: Updating
       run: |
         sudo apt update && sudo apt upgrade -y
+        sudo apt-get install -y build-essential make bc gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev libfl-dev
+        sudo apt-get install -y curl git ftp lftp wget libarchive-tools ccache
+        sudo apt-get install -y zip unzip tar gzip bzip2 rar unrar
+
+    - name: Download the file
+      run: |
         cd toolchain && mkdir clang && cd toolchain/clang
         wget "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz"
         tar xzvf clang-r383902.tar.gz
         rm clang-r383902.tar.gz
+
     - name: Configure Git
       run: |
         git config user.name "github-actions[bot]"
