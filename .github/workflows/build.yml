@@ -30,6 +30,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add *
+        git add /out/arch /out/block /out/certs /out/crypto /out/drivers
         git commit -m "test build"
         git push
