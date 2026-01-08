@@ -30,6 +30,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add /home/runner/work/toolchain/toolchain/out/firmware /home/runner/work/toolchain/toolchain/out/fs /home/runner/work/toolchain/toolchain/out/include /home/runner/work/toolchain/toolchain/out/ipc /home/runner/work/toolchain/toolchain/out/kernel /home/runner/work/toolchain/toolchain/out/lib
+        git add /home/runner/work/toolchain/toolchain/out/firmware /home/runner/work/toolchain/toolchain/out/fs /home/runner/work/toolchain/toolchain/out/include /home/runner/work/toolchain/toolchain/out/ipc /home/runner/work/toolchain/toolchain/out/lib
         git commit -m "test build 2"
         git push
