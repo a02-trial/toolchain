@@ -14,8 +14,8 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -30,9 +30,9 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/inttypes.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/inttypes.h \
   /usr/include/inttypes.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
@@ -71,7 +71,7 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
   /usr/include/assert.h \
   /usr/include/ctype.h \
   /usr/include/errno.h \

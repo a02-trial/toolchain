@@ -35,7 +35,7 @@ mpicoder.o: ../lib/mpi/mpicoder.c ../include/linux/kconfig.h \
   ../include/asm-generic/bitops/ext2-atomic-setbit.h \
   ../include/linux/count_zeros.h ../include/linux/scatterlist.h \
   ../include/linux/string.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/bug.h ../arch/arm/include/asm/bug.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \

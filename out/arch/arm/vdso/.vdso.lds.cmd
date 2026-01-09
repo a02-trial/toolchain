@@ -1,4 +1,4 @@
-cmd_arch/arm/vdso/vdso.lds := clang -E -Wp,-MD,arch/arm/vdso/.vdso.lds.d -nostdinc -isystem /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include -I../arch/arm/include -I./arch/arm/include/generated  -I../include -I../drivers/misc/mediatek/include -I./include -I../arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I../include/uapi -I./include/generated/uapi -include ../include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -P -C -Uarm -P -Uarm -D__ASSEMBLY__ -DLINKER_SCRIPT -o arch/arm/vdso/vdso.lds ../arch/arm/vdso/vdso.lds.S
+cmd_arch/arm/vdso/vdso.lds := clang -E -Wp,-MD,arch/arm/vdso/.vdso.lds.d -nostdinc -isystem /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include -I../arch/arm/include -I./arch/arm/include/generated  -I../include -I../drivers/misc/mediatek/include -I./include -I../arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I../include/uapi -I./include/generated/uapi -include ../include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -P -C -Uarm -P -Uarm -D__ASSEMBLY__ -DLINKER_SCRIPT -o arch/arm/vdso/vdso.lds ../arch/arm/vdso/vdso.lds.S
 
 source_arch/arm/vdso/vdso.lds := ../arch/arm/vdso/vdso.lds.S
 

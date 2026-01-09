@@ -23,7 +23,7 @@ drm_file.o: ../drivers/gpu/drm/drm_file.c ../include/linux/kconfig.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/list.h ../include/linux/poison.h \
   ../include/uapi/linux/const.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../arch/arm/include/asm/irqflags.h ../arch/arm/include/asm/ptrace.h \

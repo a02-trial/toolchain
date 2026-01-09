@@ -25,7 +25,7 @@ socket.o: ../net/socket.c ../include/linux/kconfig.h \
   ../include/linux/kasan-checks.h ../arch/arm/include/asm/swab.h \
   ../arch/arm/include/uapi/asm/swab.h ../include/asm-generic/bug.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../include/linux/typecheck.h ../arch/arm/include/asm/irqflags.h \
@@ -336,7 +336,7 @@ socket.o: ../net/socket.c ../include/linux/kconfig.h \
   ../include/linux/audit.h ../include/uapi/linux/audit.h \
   ../arch/arm/include/asm/syscall.h ../include/linux/wireless.h \
   ../include/uapi/linux/wireless.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
   ../include/linux/xattr.h ../include/uapi/linux/xattr.h \
   ../include/linux/nospec.h ../include/net/compat.h \
   ../include/net/wext.h ../include/net/iw_handler.h \

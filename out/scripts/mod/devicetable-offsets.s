@@ -23,7 +23,7 @@
 	.code	32                      @ @main
 main:
 .Lfunc_begin0:
-	.file	1 "/home/runner/work/toolchain/toolchain/out/../scripts/mod/devicetable-offsets.c"
+	.file	1 "/workspaces/toolchain/out/../scripts/mod/devicetable-offsets.c"
 	.loc	1 10 0                  @ ../scripts/mod/devicetable-offsets.c:10:0
 	.fnstart
 	.cfi_sections .debug_frame
@@ -997,6 +997,7 @@ main:
 .Lfunc_end0:
 	.size	main, .Lfunc_end0-main
 	.cfi_endproc
+	.cantunwind
 	.fnend
                                         @ -- End function
 	.section	.debug_abbrev,"",%progbits
@@ -1075,7 +1076,7 @@ main:
 	.long	.Lfunc_begin0           @ DW_AT_low_pc
 	.long	.Lfunc_end0-.Lfunc_begin0 @ DW_AT_high_pc
 	.byte	1                       @ DW_AT_frame_base
-	.byte	93
+	.byte	91
                                         @ DW_AT_GNU_all_call_sites
 	.long	.Linfo_string3          @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
@@ -1095,11 +1096,11 @@ main:
 .Linfo_string1:
 	.asciz	"../scripts/mod/devicetable-offsets.c" @ string offset=155
 .Linfo_string2:
-	.asciz	"/home/runner/work/toolchain/toolchain/out" @ string offset=192
+	.asciz	"/workspaces/toolchain/out" @ string offset=192
 .Linfo_string3:
-	.asciz	"main"                  @ string offset=234
+	.asciz	"main"                  @ string offset=218
 .Linfo_string4:
-	.asciz	"int"                   @ string offset=239
+	.asciz	"int"                   @ string offset=223
 	.ident	"Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79)"
 	.section	".note.GNU-stack","",%progbits
 	.section	.debug_line,"",%progbits

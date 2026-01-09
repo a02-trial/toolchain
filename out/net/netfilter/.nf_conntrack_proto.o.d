@@ -16,7 +16,7 @@ nf_conntrack_proto.o: ../net/netfilter/nf_conntrack_proto.c \
   ../arch/arm/include/asm/barrier.h ../include/asm-generic/barrier.h \
   ../include/linux/kasan-checks.h ../include/linux/skbuff.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/bitops.h ../include/linux/bits.h \

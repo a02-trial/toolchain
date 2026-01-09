@@ -19,7 +19,7 @@ devres.o: ../lib/devres.c ../include/linux/kconfig.h \
   ../include/uapi/asm-generic/errno-base.h ../include/linux/pci.h \
   ../include/linux/mod_devicetable.h ../include/linux/uuid.h \
   ../include/uapi/linux/uuid.h ../include/linux/string.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/init.h ../include/linux/ioport.h \
   ../include/linux/list.h ../include/linux/poison.h \

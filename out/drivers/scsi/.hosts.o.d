@@ -13,7 +13,7 @@ hosts.o: ../drivers/scsi/hosts.c ../include/linux/kconfig.h \
   ../arch/arm/include/uapi/asm/posix_types.h \
   ../include/uapi/asm-generic/posix_types.h ../include/linux/poison.h \
   ../include/uapi/linux/const.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/compiler.h ../arch/arm/include/asm/barrier.h \

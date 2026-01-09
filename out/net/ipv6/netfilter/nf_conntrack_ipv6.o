@@ -2,5 +2,5 @@
 //                                              58        `
 nf_conntrack_l3proto_ipv6.o/
 nf_conntrack_proto_icmpv6.o/
-/0              0           0     0     644     233064    `
-/29             0           0     0     644     205320    `
+/0              0           0     0     644     232944    `
+/29             0           0     0     644     204920    `

@@ -14,7 +14,7 @@ open.o: ../fs/open.c ../include/linux/kconfig.h \
   ../include/uapi/asm-generic/posix_types.h \
   ../arch/arm/include/asm/barrier.h ../include/asm-generic/barrier.h \
   ../include/linux/kasan-checks.h ../include/linux/types.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/mm.h ../include/linux/errno.h \
   ../include/uapi/linux/errno.h \

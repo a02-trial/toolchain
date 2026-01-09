@@ -18,7 +18,7 @@ lcm_pmic.o: ../drivers/misc/mediatek/lcm/lcm_pmic.c \
   arch/arm/include/generated/uapi/asm/errno.h \
   ../include/uapi/asm-generic/errno.h \
   ../include/uapi/asm-generic/errno-base.h ../include/linux/string.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/kernel.h ../include/linux/linkage.h \
   ../include/linux/stringify.h ../include/linux/export.h \

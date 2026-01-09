@@ -3,7 +3,7 @@ cpu_rmap.o: ../lib/cpu_rmap.c ../include/linux/kconfig.h \
   ../include/linux/compiler-gcc.h ../include/linux/compiler-clang.h \
   ../include/linux/cpu_rmap.h ../include/linux/cpumask.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \

@@ -20,10 +20,17 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -36,6 +43,7 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/stdlib.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -64,7 +72,7 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
   ../scripts/kconfig/lkc.h \
     $(wildcard include/config/prefix.h) \
     $(wildcard include/config/list.h) \
@@ -85,7 +93,7 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/limits.h \
+  /usr/lib/llvm-18/lib/clang/18/include/limits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \

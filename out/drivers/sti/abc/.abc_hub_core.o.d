@@ -3,7 +3,7 @@ abc_hub_core.o: ../drivers/sti/abc/abc_hub_core.c \
   ../include/linux/compiler_types.h ../include/linux/compiler-gcc.h \
   ../include/linux/compiler-clang.h ../include/linux/sti/abc_hub.h \
   ../include/linux/sti/abc_common.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \

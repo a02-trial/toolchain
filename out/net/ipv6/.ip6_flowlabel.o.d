@@ -21,7 +21,7 @@ ip6_flowlabel.o: ../net/ipv6/ip6_flowlabel.c ../include/linux/kconfig.h \
   arch/arm/include/generated/uapi/asm/sockios.h \
   ../include/uapi/asm-generic/sockios.h ../include/uapi/linux/sockios.h \
   ../include/linux/uio.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/compiler.h ../arch/arm/include/asm/barrier.h \

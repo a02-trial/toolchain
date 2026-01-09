@@ -2,7 +2,7 @@ sec_mod.o: ../drivers/misc/mediatek/masp/asfv2/module/sec_mod.c \
   ../include/linux/kconfig.h include/generated/autoconf.h \
   ../include/linux/compiler_types.h ../include/linux/compiler-gcc.h \
   ../include/linux/compiler-clang.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \
@@ -234,7 +234,7 @@ sec_mod.o: ../drivers/misc/mediatek/masp/asfv2/module/sec_mod.c \
   ../drivers/misc/mediatek/masp/asfv2/module/sec_mod.h \
   ../drivers/misc/mediatek/masp/asfv2/asf_inc/sec_boot_lib.h \
   ../drivers/misc/mediatek/masp/asfv2/asf_inc/sec_osal_light.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
   ../drivers/misc/mediatek/masp/asfv2/asf_inc/masp_version.h \
   ../drivers/misc/mediatek/masp/asfv2/asf_inc/sec_error.h \
   ../drivers/misc/mediatek/masp/asfv2/module/sec_clk.h

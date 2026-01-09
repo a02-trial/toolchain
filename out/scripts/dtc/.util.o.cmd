@@ -22,8 +22,8 @@ deps_scripts/dtc/util.o := \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -85,14 +85,14 @@ deps_scripts/dtc/util.o := \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   ../scripts/dtc/libfdt/libfdt.h \
   ../scripts/dtc/libfdt/libfdt_env.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   ../scripts/dtc/libfdt/fdt.h \
   ../scripts/dtc/util.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
   /usr/include/getopt.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
   ../scripts/dtc/version_gen.h \

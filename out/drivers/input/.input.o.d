@@ -41,7 +41,7 @@ input.o: ../drivers/input/input.c ../include/linux/kconfig.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../arch/arm/include/asm/opcodes.h ../include/asm-generic/bug.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/log2.h ../include/linux/printk.h \
   ../include/linux/kern_levels.h ../include/linux/cache.h \
   ../include/uapi/linux/kernel.h ../include/uapi/linux/sysinfo.h \

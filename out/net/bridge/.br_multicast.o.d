@@ -19,7 +19,7 @@ br_multicast.o: ../net/bridge/br_multicast.c ../include/linux/kconfig.h \
   ../include/uapi/asm-generic/errno-base.h ../include/linux/export.h \
   ../include/linux/if_ether.h ../include/linux/skbuff.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../arch/arm/include/asm/linkage.h ../include/linux/bitops.h \
   ../include/linux/bits.h ../arch/arm/include/asm/bitops.h \

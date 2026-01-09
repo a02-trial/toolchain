@@ -28,7 +28,7 @@
 	.code	32                      @ @main
 main:
 .Lfunc_begin0:
-	.file	1 "/home/runner/work/toolchain/toolchain/out/../arch/arm/kernel/asm-offsets.c"
+	.file	1 "/workspaces/toolchain/out/../arch/arm/kernel/asm-offsets.c"
 	.loc	1 60 0                  @ ../arch/arm/kernel/asm-offsets.c:60:0
 	.fnstart
 	.cfi_sections .debug_frame
@@ -540,6 +540,7 @@ main:
 .Lfunc_end0:
 	.size	main, .Lfunc_end0-main
 	.cfi_endproc
+	.cantunwind
 	.fnend
                                         @ -- End function
 	.section	.debug_abbrev,"",%progbits
@@ -618,7 +619,7 @@ main:
 	.long	.Lfunc_begin0           @ DW_AT_low_pc
 	.long	.Lfunc_end0-.Lfunc_begin0 @ DW_AT_high_pc
 	.byte	1                       @ DW_AT_frame_base
-	.byte	93
+	.byte	91
                                         @ DW_AT_GNU_all_call_sites
 	.long	.Linfo_string3          @ DW_AT_name
 	.byte	1                       @ DW_AT_decl_file
@@ -638,11 +639,11 @@ main:
 .Linfo_string1:
 	.asciz	"../arch/arm/kernel/asm-offsets.c" @ string offset=155
 .Linfo_string2:
-	.asciz	"/home/runner/work/toolchain/toolchain/out" @ string offset=188
+	.asciz	"/workspaces/toolchain/out" @ string offset=188
 .Linfo_string3:
-	.asciz	"main"                  @ string offset=230
+	.asciz	"main"                  @ string offset=214
 .Linfo_string4:
-	.asciz	"int"                   @ string offset=235
+	.asciz	"int"                   @ string offset=219
 	.ident	"Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79)"
 	.section	".note.GNU-stack","",%progbits
 	.section	.debug_line,"",%progbits

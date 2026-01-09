@@ -5,8 +5,8 @@ common/v1/eeprom_i2c_common_driver.o/
 mt6739/eeprom_i2c_custom_driver.o/
 mt6739/camera_project/aau_v02/cam_cal_list.o/
 mt6739/camera_project/aau_v02/eeprom_i2c_dev.o/
-/0             /0           0     0     644     131944    `
-/27             0           0     0     644     91476     `
-/65             0           0     0     644     88764     `
-/100            0           0     0     644     77936     `
-/146            0           0     0     644     4172      `
+/0             /0           0     0     644     131704    `
+/27             0           0     0     644     91216     `
+/65             0           0     0     644     88572     `
+/100            0           0     0     644     77716     `
+/146            0           0     0     644     4064      `

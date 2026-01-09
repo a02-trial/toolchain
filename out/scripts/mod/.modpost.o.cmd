@@ -23,8 +23,8 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -46,7 +46,7 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/limits.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/limits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -55,7 +55,7 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdbool.h \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
@@ -131,7 +131,7 @@ deps_scripts/mod/modpost.o := \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/elf.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

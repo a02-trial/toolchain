@@ -22,7 +22,7 @@ dev.o: ../net/core/dev.c ../include/linux/kconfig.h \
   ../include/asm-generic/barrier.h ../include/linux/kasan-checks.h \
   ../arch/arm/include/asm/swab.h ../arch/arm/include/uapi/asm/swab.h \
   ../include/asm-generic/bug.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../include/linux/typecheck.h ../arch/arm/include/asm/irqflags.h \
@@ -360,7 +360,7 @@ dev.o: ../net/core/dev.c ../include/linux/kconfig.h \
   ../arch/arm/include/asm/kmap_types.h ../arch/arm/include/asm/highmem.h \
   ../include/linux/netpoll.h ../include/net/iw_handler.h \
   ../include/linux/wireless.h ../include/uapi/linux/wireless.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
   ../include/linux/dmaengine.h ../include/linux/ctype.h \
   ../include/net/mpls.h ../include/trace/events/napi.h \
   ../include/linux/ftrace.h ../include/linux/trace_clock.h \

@@ -25,7 +25,7 @@ gf128mul.o: ../crypto/gf128mul.c ../include/linux/kconfig.h \
   ../include/linux/stringify.h ../include/linux/export.h \
   ../arch/arm/include/asm/linkage.h ../arch/arm/include/asm/opcodes.h \
   ../include/asm-generic/bug.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../include/linux/typecheck.h ../arch/arm/include/asm/irqflags.h \

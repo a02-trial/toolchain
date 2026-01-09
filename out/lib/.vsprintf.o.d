@@ -1,7 +1,7 @@
 vsprintf.o: ../lib/vsprintf.c ../include/linux/kconfig.h \
   include/generated/autoconf.h ../include/linux/compiler_types.h \
   ../include/linux/compiler-gcc.h ../include/linux/compiler-clang.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/clk.h ../include/linux/err.h \
   ../include/linux/compiler.h ../include/uapi/linux/types.h \
   ../arch/arm/include/uapi/asm/types.h ../include/asm-generic/int-ll64.h \

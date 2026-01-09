@@ -21,7 +21,7 @@ i2c-mux.o: ../drivers/i2c/i2c-mux.c ../include/linux/kconfig.h \
   ../include/linux/resource_ext.h ../include/linux/list.h \
   ../include/linux/poison.h ../include/uapi/linux/const.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/bitops.h ../include/linux/bits.h \

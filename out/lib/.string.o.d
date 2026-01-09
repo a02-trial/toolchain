@@ -13,7 +13,7 @@ string.o: ../lib/string.c ../include/linux/kconfig.h \
   ../include/uapi/asm-generic/posix_types.h ../include/linux/string.h \
   ../include/linux/compiler.h ../arch/arm/include/asm/barrier.h \
   ../include/asm-generic/barrier.h ../include/linux/kasan-checks.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/ctype.h ../include/linux/kernel.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \

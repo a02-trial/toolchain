@@ -35,7 +35,7 @@ iommu-helper.o: ../lib/iommu-helper.c ../include/linux/kconfig.h \
   ../include/linux/byteorder/generic.h \
   ../include/asm-generic/bitops/ext2-atomic-setbit.h \
   ../include/linux/string.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/kernel.h ../include/linux/linkage.h \
   ../include/linux/stringify.h ../arch/arm/include/asm/linkage.h \

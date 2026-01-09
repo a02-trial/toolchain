@@ -27,7 +27,7 @@ vb2-trace.o: ../drivers/media/v4l2-core/vb2-trace.c \
   ../include/asm-generic/cmpxchg-local.h \
   ../include/asm-generic/atomic-long.h ../include/linux/cpumask.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/bitops.h ../include/linux/bits.h \

@@ -1,7 +1,7 @@
 kasprintf.o: ../lib/kasprintf.c ../include/linux/kconfig.h \
   include/generated/autoconf.h ../include/linux/compiler_types.h \
   ../include/linux/compiler-gcc.h ../include/linux/compiler-clang.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/export.h ../include/linux/slab.h \
   ../include/linux/gfp.h ../include/linux/mmdebug.h \
   ../include/linux/bug.h ../arch/arm/include/asm/bug.h \

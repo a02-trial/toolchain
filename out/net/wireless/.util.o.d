@@ -35,7 +35,7 @@ util.o: ../net/wireless/util.c ../include/linux/kconfig.h \
   ../include/asm-generic/bitops/ext2-atomic-setbit.h \
   ../include/linux/etherdevice.h ../include/linux/if_ether.h \
   ../include/linux/skbuff.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../arch/arm/include/asm/linkage.h ../include/linux/log2.h \
   ../include/linux/printk.h ../include/linux/init.h \

@@ -1,0 +1,2 @@
+kernel/arch/arm/crypto/sha256-arm.ko
+kernel/arch/arm/crypto/sha512-arm.ko

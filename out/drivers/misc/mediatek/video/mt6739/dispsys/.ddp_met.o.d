@@ -5,7 +5,7 @@ ddp_met.o: ../drivers/misc/mediatek/video/mt6739/dispsys/ddp_met.c \
   ../drivers/misc/mediatek/video/mt6739/dispsys/ddp_log.h \
   ../drivers/misc/mediatek/include/mt-plat/aee.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \

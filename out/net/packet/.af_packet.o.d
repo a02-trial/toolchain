@@ -24,7 +24,7 @@ af_packet.o: ../net/packet/af_packet.c ../include/linux/kconfig.h \
   ../include/linux/kasan-checks.h ../arch/arm/include/asm/swab.h \
   ../arch/arm/include/uapi/asm/swab.h ../include/asm-generic/bug.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../include/linux/typecheck.h ../arch/arm/include/asm/irqflags.h \
@@ -280,7 +280,7 @@ af_packet.o: ../net/packet/af_packet.c ../include/linux/kconfig.h \
   ../include/uapi/linux/pkt_cls.h ../include/uapi/linux/pkt_sched.h \
   ../include/linux/hashtable.h ../include/linux/wireless.h \
   ../include/uapi/linux/wireless.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
   ../include/linux/kmod.h ../include/linux/umh.h ../include/net/ip.h \
   ../include/linux/ip.h ../include/uapi/linux/ip.h \
   ../include/net/inet_sock.h ../include/net/sock.h \

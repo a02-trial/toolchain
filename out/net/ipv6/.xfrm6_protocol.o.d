@@ -23,7 +23,7 @@ xfrm6_protocol.o: ../net/ipv6/xfrm6_protocol.c ../include/linux/kconfig.h \
   ../include/uapi/linux/swab.h ../arch/arm/include/asm/swab.h \
   ../arch/arm/include/uapi/asm/swab.h ../include/asm-generic/bug.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/bitops.h ../include/linux/bits.h \
   ../arch/arm/include/asm/bitops.h ../include/linux/irqflags.h \
   ../include/linux/typecheck.h ../arch/arm/include/asm/irqflags.h \

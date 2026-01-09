@@ -21,7 +21,7 @@ return_address.o: ../arch/arm/kernel/return_address.c \
   arch/arm/include/generated/uapi/asm/errno.h \
   ../include/uapi/asm-generic/errno.h \
   ../include/uapi/asm-generic/errno-base.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../arch/arm/include/asm/linkage.h ../include/linux/bitops.h \
   ../include/linux/bits.h ../arch/arm/include/asm/bitops.h \
@@ -202,4 +202,5 @@ return_address.o: ../arch/arm/kernel/return_address.c \
   ../include/linux/nfs_fs_i.h ../include/linux/vmstat.h \
   ../include/linux/vm_event_item.h ../include/linux/nsproxy.h \
   ../include/linux/kref.h ../include/linux/ns_common.h \
-  ../include/uapi/linux/ptrace.h ../arch/arm/include/asm/ftrace.h
+  ../include/uapi/linux/ptrace.h ../arch/arm/include/asm/ftrace.h \
+  ../arch/arm/include/asm/stacktrace.h

@@ -1,7 +1,7 @@
 process.o: ../arch/arm/kernel/process.c ../include/linux/kconfig.h \
   include/generated/autoconf.h ../include/linux/compiler_types.h \
   ../include/linux/compiler-gcc.h ../include/linux/compiler-clang.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/export.h ../include/linux/sched.h \
   ../include/uapi/linux/sched.h arch/arm/include/generated/asm/current.h \
   ../include/asm-generic/current.h ../include/linux/thread_info.h \

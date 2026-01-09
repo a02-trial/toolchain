@@ -21,7 +21,7 @@ ff-core.o: ../drivers/input/ff-core.c ../include/linux/kconfig.h \
   ../arch/arm/include/asm/linkage.h ../include/linux/list.h \
   ../include/linux/poison.h ../include/uapi/linux/const.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/compiler.h ../arch/arm/include/asm/barrier.h \
   ../include/asm-generic/barrier.h ../include/linux/kasan-checks.h \
   ../include/linux/bitops.h ../include/linux/bits.h \

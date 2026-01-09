@@ -23,7 +23,7 @@ exthdrs_core.o: ../net/ipv6/exthdrs_core.c ../include/linux/kconfig.h \
   ../arch/arm/include/asm/swab.h ../arch/arm/include/uapi/asm/swab.h \
   ../include/linux/byteorder/generic.h ../include/linux/icmpv6.h \
   ../include/linux/skbuff.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../arch/arm/include/asm/linkage.h ../include/linux/bitops.h \
   ../include/linux/bits.h ../arch/arm/include/asm/bitops.h \

@@ -7,7 +7,7 @@ mtk-auddrv-ana.o: ../sound/soc/mediatek/codec/mt6357/mtk-auddrv-ana.c \
   ../sound/soc/mediatek/common_int/mtk-auddrv-type-def.h \
   ../drivers/misc/mediatek/include/mt-plat/aee.h \
   ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \

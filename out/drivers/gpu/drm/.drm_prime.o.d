@@ -19,7 +19,7 @@ drm_prime.o: ../drivers/gpu/drm/drm_prime.c ../include/linux/kconfig.h \
   ../include/uapi/asm-generic/errno.h \
   ../include/uapi/asm-generic/errno-base.h \
   ../include/linux/scatterlist.h ../include/linux/string.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/uapi/linux/string.h ../arch/arm/include/asm/string.h \
   ../include/linux/bug.h ../arch/arm/include/asm/bug.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \

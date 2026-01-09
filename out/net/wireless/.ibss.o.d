@@ -3,7 +3,7 @@ ibss.o: ../net/wireless/ibss.c ../include/linux/kconfig.h \
   ../include/linux/compiler-gcc.h ../include/linux/compiler-clang.h \
   ../include/linux/etherdevice.h ../include/linux/if_ether.h \
   ../include/linux/skbuff.h ../include/linux/kernel.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stdarg.h \
   ../include/linux/linkage.h ../include/linux/stringify.h \
   ../include/linux/export.h ../arch/arm/include/asm/linkage.h \
   ../include/linux/stddef.h ../include/uapi/linux/stddef.h \
@@ -286,7 +286,7 @@ ibss.o: ../net/wireless/ibss.c ../include/linux/kconfig.h \
   ../include/linux/ieee80211.h ../include/net/regulatory.h \
   ../net/wireless/wext-compat.h ../include/net/iw_handler.h \
   ../include/linux/wireless.h ../include/uapi/linux/wireless.h \
-  /home/runner/work/toolchain/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
+  /workspaces/toolchain/toolchain/clang/lib64/clang/11.0.1/include/stddef.h \
   ../net/wireless/nl80211.h ../net/wireless/core.h \
   ../include/linux/rfkill.h ../include/uapi/linux/rfkill.h \
   ../include/linux/leds.h ../include/linux/rtnetlink.h \
