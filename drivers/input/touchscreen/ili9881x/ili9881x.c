@@ -37,27 +37,46 @@ static struct work_struct	resume_by_ddi_work;
 
 static void ilitek_resume_by_ddi_work(struct work_struct *work)
 {
+	/* 1. Enable input ASAP (fix delay userspace) */
+	if (ilits->input_dev)
+		input_set_device_enabled(ilits->input_dev, true);
+
 	mutex_lock(&ilits->touch_mutex);
 
+	/* Avoid double resume */
+	if (!ilits->tp_suspend) {
+		mutex_unlock(&ilits->touch_mutex);
+		return;
+	}
+
+	/* 2. Disable irq wake gesture if enabled */
 	if (ilits->gesture)
 		ili_irq_wake_disable();
 
-	/* Set tp as demo mode and reload code if it's iram. */
+	/* 3. Set normal mode */
 	ilits->actual_tp_mode = P5_X_FW_AP_MODE;
+
+	/* 4. Reset / reload firmware */
 	if (ilits->fw_upgrade_mode == UPGRADE_IRAM)
 		ili_fw_upgrade_handler(NULL);
 	else
 		ili_reset_ctrl(ilits->reset);
 
-	ili_irq_enable();
-	/* Give TP a short time to be ready before enabling IRQ */
+	/* 5. Short settle delay */
 	msleep(20);
+
+	/* 6. Enable IRQ */
 	ili_irq_enable();
 
 	input_info(true, ilits->dev, "%s TP resume end by wq\n", __func__);
+
+	/* 7. Enable helper workqueues */
 	ili_wq_ctrl(WQ_ESD, ENABLE);
 	ili_wq_ctrl(WQ_BAT, ENABLE);
+
+	/* 8. Clear suspend flag */
 	ilits->tp_suspend = false;
+
 	mutex_unlock(&ilits->touch_mutex);
 }
 
