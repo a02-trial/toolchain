@@ -1,4 +1,0 @@
-kernel/drivers/sensors/isg5320a_a02.ko
-kernel/drivers/sensors/isg5320a_sub_a02.ko
-kernel/drivers/sensors/lis2ds_core_a02.ko
-kernel/drivers/sensors/lis2ds_i2c_a02.ko
