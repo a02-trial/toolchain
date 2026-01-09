@@ -29,6 +29,9 @@ jobs:
 
     - name: Add and Commit file
       run: |
+        cd ${GITHUB_WORKSPACE}
+        cp out/arch/arm/boot/zImage .
+        rm -rf out
         git add *
         git commit -m "zImage ready"
         git push
