@@ -1,18 +1,13 @@
+# SPDX-License-Identifier: GPL-2.0
 #
-# Ilitek ili9881x touchscreen driver configuration
+# ILI9881X Touchscreen driver
 #
-menuconfig TOUCHSCREEN_ILITEK_ILI9881X
-	bool "Ilitek ili9881x touchscreen"
-	default n
+
+config TOUCHSCREEN_ILI9881X
+	bool "ILI9881X touchscreen support"
+	depends on INPUT && TOUCHSCREEN
+	default y
 	help
-	  Say Y here if you have a Synaptics TCM touchscreen connected
-	  to your system.
+	  Say Y here if you have a touchscreen based on the
+	  Ilitek ILI9881X controller.
 
-	  If unsure, say N.
-
-if TOUCHSCREEN_ILITEK_ILI9881X
-
-config TOUCHSCREEN_ILITEK_ILI9881X_SPI
-	bool "SPI"
-	depends on SPI_MASTER
-endif
