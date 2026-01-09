@@ -801,7 +801,6 @@ static int parse_dt(void)
 }
 
 static int ilitek_plat_probe(void)
-ilits->dev->power.async_suspend = false;
 {
 	int ret;
 
@@ -812,6 +811,9 @@ ilits->dev->power.async_suspend = false;
 		input_err(true, ilits->dev, "%s : parse_dt fail unload driver!\n", __func__);
 		return -EINVAL;
 	}
+
+	/* Disable async suspend for touch (avoid resume delay) */
+	ilits->dev->power.async_suspend = false;
 
 #if REGULATOR_POWER
 	ilitek_plat_regulator_power_init();
@@ -827,20 +829,31 @@ ilits->dev->power.async_suspend = false;
 
 	ili_irq_register(ilits->irq_tirgger_type);
 
+#if RESUME_BY_DDI
+	/* Init resume by DDI workqueue */
+	resume_by_ddi_wq = create_singlethread_workqueue("ili_resume_by_ddi");
+	if (!resume_by_ddi_wq) {
+		input_err(true, ilits->dev, "Failed to create resume_by_ddi_wq\n");
+		return -ENOMEM;
+	}
+	INIT_WORK(&resume_by_ddi_work, ilitek_resume_by_ddi_work);
+#endif
+
 #if SPRD_SYSFS_SUSPEND_RESUME
 	ili_sysfs_add_device(ilits->dev);
 	if (sysfs_create_link(NULL, &ilits->dev->kobj, "touchscreen") < 0)
 		input_info(true, ilits->dev, "%s Failed to create link!\n", __func__);
 #endif
+
 	ilits->pm_suspend = false;
 	init_completion(&ilits->pm_completion);
+
 #if CHARGER_NOTIFIER_CALLBACK
 #if KERNEL_VERSION(4, 1, 0) <= LINUX_VERSION_CODE
-	/* add_for_charger_start */
 	ilitek_plat_charger_init();
-	/* add_for_charger_end */
 #endif
 #endif
+
 	input_info(true, ilits->dev, "%s ILITEK Driver loaded successfully!", __func__);
 	return 0;
 }
