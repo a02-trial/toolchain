@@ -833,7 +833,13 @@ static int ilitek_plat_probe(void)
 		return -ENODEV;
 	}
 
+#ifdef ILI_RECOVERY_MODE
+	/* Recovery: ensure touch fully ready */
+	msleep(30);
+#else
+	/* ROM: faster resume */
 	msleep(25);
+#endif
 	mb();
 	ili_irq_register(ilits->irq_tirgger_type);
 
@@ -881,8 +887,13 @@ static int ilitek_tp_pm_resume(struct device *dev)
 	ilits->pm_suspend = false;
 	complete(&ilits->pm_completion);
 
-	/* Ensure touch IC is fully ready after resume */
+#ifdef ILI_RECOVERY_MODE
+	/* Recovery: no async jobs, wait IC stable */
+	msleep(30);
+#else
+	/* ROM: shorter wait */
 	msleep(25);
+#endif
 	mb();
 
 	return 0;
