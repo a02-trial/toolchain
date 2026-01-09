@@ -1,5 +1,8 @@
 ccflags-y += -O2
+
+ifeq ($(CONFIG_TWRP),y)
 ccflags-y += -fno-tree-slp-vectorize
+endif
 
 obj-y += ili9881x.o \
 	ili9881x_spi.o \
