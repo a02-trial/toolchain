@@ -21,5 +21,6 @@ make_fun() {
 		ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang "$@"
 }
 
+make ARCH=arm CROSS_COMPILE=arm-linux-androideabi- CC=clang HOSTCC=clang mrproper
 make_fun a02_defconfig
 make_fun -j"$(nproc --all)" zImage
