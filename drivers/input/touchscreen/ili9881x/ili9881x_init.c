@@ -806,6 +806,9 @@ static int ilitek_plat_probe(void)
 
 	input_info(true, ilits->dev, "%s platform probe\n", __func__);
 
+	ilits->dev->power.async_suspend = false;
+	ilits->dev->power.async_resume  = false;
+
 	ret = parse_dt();
 	if (ret < 0) {
 		input_err(true, ilits->dev, "%s : parse_dt fail unload driver!\n", __func__);
@@ -827,6 +830,8 @@ static int ilitek_plat_probe(void)
 		return -ENODEV;
 	}
 
+	msleep(25);
+	mb();
 	ili_irq_register(ilits->irq_tirgger_type);
 
 #if RESUME_BY_DDI
@@ -869,8 +874,14 @@ static int ilitek_tp_pm_suspend(struct device *dev)
 static int ilitek_tp_pm_resume(struct device *dev)
 {
 	input_info(false, ilits->dev, "%s CALL BACK TP PM RESUME", __func__);
+
 	ilits->pm_suspend = false;
 	complete(&ilits->pm_completion);
+
+	/* Ensure touch IC is fully ready after resume */
+	msleep(25);
+	mb();
+
 	return 0;
 }
 
