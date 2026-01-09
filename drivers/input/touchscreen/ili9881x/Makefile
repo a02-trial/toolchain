@@ -1,4 +1,5 @@
-ccflags-y += -Wall
+ccflags-y += -O2
+ccflags-y += -fno-tree-slp-vectorize
 
 obj-y += ili9881x.o \
 	ili9881x_spi.o \
