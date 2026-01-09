@@ -807,7 +807,6 @@ static int ilitek_plat_probe(void)
 	input_info(true, ilits->dev, "%s platform probe\n", __func__);
 
 	ilits->dev->power.async_suspend = false;
-	ilits->dev->power.async_resume  = false;
 
 	ret = parse_dt();
 	if (ret < 0) {
