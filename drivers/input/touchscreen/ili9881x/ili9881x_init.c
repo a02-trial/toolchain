@@ -801,6 +801,7 @@ static int parse_dt(void)
 }
 
 static int ilitek_plat_probe(void)
+ilits->dev->power.async_suspend = false;
 {
 	int ret;
 
