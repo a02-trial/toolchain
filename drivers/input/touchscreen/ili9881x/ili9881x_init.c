@@ -346,10 +346,7 @@ void ili_irq_wake_enable(void)
 		return;
 	}
 
-	#ifndef ILI_RECOVERY_MODE
 	enable_irq_wake(ilits->irq_num);
-	#endif
-
 	atomic_set(&ilits->irq_wake_stat, ENABLE);
 	ILI_DBG("%s Enable wake_irq_stat success\n", __func__);
 }
@@ -819,9 +816,6 @@ static int ilitek_plat_probe(void)
 		return -EINVAL;
 	}
 
-	/* Disable async suspend for touch (avoid resume delay) */
-	ilits->dev->power.async_suspend = false;
-
 #if REGULATOR_POWER
 	ilitek_plat_regulator_power_init();
 #endif
@@ -834,50 +828,24 @@ static int ilitek_plat_probe(void)
 		return -ENODEV;
 	}
 
-#ifdef ILI_RECOVERY_MODE
-	msleep(30);
-#else
-	msleep(25);
-#endif
-	mb();
 	ili_irq_register(ilits->irq_tirgger_type);
 
-#if RESUME_BY_DDI
-	resume_by_ddi_wq = create_singlethread_workqueue("ili_resume_by_ddi");
-	if (!resume_by_ddi_wq) {
-		input_err(true, ilits->dev, "Failed to create resume_by_ddi_wq\n");
-		ret = -ENOMEM;
-		goto err_ddi_wq;
-	}
-	INIT_WORK(&resume_by_ddi_work, ilitek_resume_by_ddi_work);
-#endif
-
-#ifndef ILI_RECOVERY_MODE
-	if (ili_sysfs_add_device(ilits->dev) < 0)
-		input_err(true, ilits->dev, "Failed to add sysfs device\n");
-
+#if SPRD_SYSFS_SUSPEND_RESUME
+	ili_sysfs_add_device(ilits->dev);
 	if (sysfs_create_link(NULL, &ilits->dev->kobj, "touchscreen") < 0)
-		input_err(true, ilits->dev, "Failed to create sysfs link\n");
+		input_info(true, ilits->dev, "%s Failed to create link!\n", __func__);
 #endif
-
 	ilits->pm_suspend = false;
 	init_completion(&ilits->pm_completion);
-
 #if CHARGER_NOTIFIER_CALLBACK
 #if KERNEL_VERSION(4, 1, 0) <= LINUX_VERSION_CODE
-#ifndef ILI_RECOVERY_MODE
+	/* add_for_charger_start */
 	ilitek_plat_charger_init();
+	/* add_for_charger_end */
 #endif
 #endif
-#endif
-
 	input_info(true, ilits->dev, "%s ILITEK Driver loaded successfully!", __func__);
 	return 0;
-
-#if RESUME_BY_DDI
-err_ddi_wq:
-	return ret;
-#endif
 }
 
 static int ilitek_tp_pm_suspend(struct device *dev)
@@ -891,19 +859,8 @@ static int ilitek_tp_pm_suspend(struct device *dev)
 static int ilitek_tp_pm_resume(struct device *dev)
 {
 	input_info(false, ilits->dev, "%s CALL BACK TP PM RESUME", __func__);
-
 	ilits->pm_suspend = false;
 	complete(&ilits->pm_completion);
-
-#ifdef ILI_RECOVERY_MODE
-	/* Recovery: no async jobs, wait IC stable */
-	msleep(30);
-#else
-	/* ROM: shorter wait */
-	msleep(25);
-#endif
-	mb();
-
 	return 0;
 }
 
