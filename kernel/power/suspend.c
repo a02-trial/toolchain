@@ -651,18 +651,20 @@ static int enter_state(suspend_state_t state)
 	if (!mutex_trylock(&pm_mutex))
 		return -EBUSY;
 
-	if (state == PM_SUSPEND_TO_IDLE)
+		if (state == PM_SUSPEND_TO_IDLE)
 		s2idle_begin();
-
-	pr_info("Preparing system for sleep (%s)\n", mem_sleep_labels[state]);
+	if (sync_on_suspend_enabled) {
+		trace_suspend_resume(TPS("sync_filesystems"), 0, true);
+		ksys_sync_helper();
+		trace_suspend_resume(TPS("sync_filesystems"), 0, false);
+	}
+	pm_pr_dbg("Preparing system for sleep (%s)\n", mem_sleep_labels[state]);
 	pm_suspend_clear_flags();
 	error = suspend_prepare(state);
 	if (error)
 		goto Unlock;
-
 	if (suspend_test(TEST_FREEZER))
 		goto Finish;
-
 	trace_suspend_resume(TPS("suspend_enter"), state, false);
 	pr_info("Suspending system (%s)\n", mem_sleep_labels[state]);
 	pm_restrict_gfp_mask();
