@@ -22,6 +22,10 @@
 
 #include "ili9881x.h"
 
+#if IS_ENABLED(CONFIG_TWRP) || IS_ENABLED(CONFIG_RECOVERY)
+#define ILI_RECOVERY_MODE
+#endif
+
 void ili_tp_reset(void)
 {
 	input_info(true, ilits->dev, "%s edge delay = %d\n", __func__, ilits->rst_edge_delay);
