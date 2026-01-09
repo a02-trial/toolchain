@@ -346,7 +346,10 @@ void ili_irq_wake_enable(void)
 		return;
 	}
 
+	#ifndef ILI_RECOVERY_MODE
 	enable_irq_wake(ilits->irq_num);
+	#endif
+
 	atomic_set(&ilits->irq_wake_stat, ENABLE);
 	ILI_DBG("%s Enable wake_irq_stat success\n", __func__);
 }
