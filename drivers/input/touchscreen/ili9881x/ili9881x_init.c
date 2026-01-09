@@ -813,8 +813,6 @@ static int ilitek_plat_probe(void)
 
 	input_info(true, ilits->dev, "%s platform probe\n", __func__);
 
-	ilits->dev->power.async_suspend = false;
-
 	ret = parse_dt();
 	if (ret < 0) {
 		input_err(true, ilits->dev, "%s : parse_dt fail unload driver!\n", __func__);
@@ -837,29 +835,29 @@ static int ilitek_plat_probe(void)
 	}
 
 #ifdef ILI_RECOVERY_MODE
-	/* Recovery: ensure touch fully ready */
 	msleep(30);
 #else
-	/* ROM: faster resume */
 	msleep(25);
 #endif
 	mb();
 	ili_irq_register(ilits->irq_tirgger_type);
 
 #if RESUME_BY_DDI
-	/* Init resume by DDI workqueue */
 	resume_by_ddi_wq = create_singlethread_workqueue("ili_resume_by_ddi");
 	if (!resume_by_ddi_wq) {
 		input_err(true, ilits->dev, "Failed to create resume_by_ddi_wq\n");
-		return -ENOMEM;
+		ret = -ENOMEM;
+		goto err_ddi_wq;
 	}
 	INIT_WORK(&resume_by_ddi_work, ilitek_resume_by_ddi_work);
 #endif
 
-#if SPRD_SYSFS_SUSPEND_RESUME
-	ili_sysfs_add_device(ilits->dev);
+#ifndef ILI_RECOVERY_MODE
+	if (ili_sysfs_add_device(ilits->dev) < 0)
+		input_err(true, ilits->dev, "Failed to add sysfs device\n");
+
 	if (sysfs_create_link(NULL, &ilits->dev->kobj, "touchscreen") < 0)
-		input_info(true, ilits->dev, "%s Failed to create link!\n", __func__);
+		input_err(true, ilits->dev, "Failed to create sysfs link\n");
 #endif
 
 	ilits->pm_suspend = false;
@@ -867,12 +865,19 @@ static int ilitek_plat_probe(void)
 
 #if CHARGER_NOTIFIER_CALLBACK
 #if KERNEL_VERSION(4, 1, 0) <= LINUX_VERSION_CODE
+#ifndef ILI_RECOVERY_MODE
 	ilitek_plat_charger_init();
+#endif
 #endif
 #endif
 
 	input_info(true, ilits->dev, "%s ILITEK Driver loaded successfully!", __func__);
 	return 0;
+
+#if RESUME_BY_DDI
+err_ddi_wq:
+	return ret;
+#endif
 }
 
 static int ilitek_tp_pm_suspend(struct device *dev)
