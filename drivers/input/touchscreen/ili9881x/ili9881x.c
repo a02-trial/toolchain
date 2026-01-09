@@ -50,6 +50,10 @@ static void ilitek_resume_by_ddi_work(struct work_struct *work)
 		ili_reset_ctrl(ilits->reset);
 
 	ili_irq_enable();
+	/* Give TP a short time to be ready before enabling IRQ */
+	msleep(20);
+	ili_irq_enable();
+
 	input_info(true, ilits->dev, "%s TP resume end by wq\n", __func__);
 	ili_wq_ctrl(WQ_ESD, ENABLE);
 	ili_wq_ctrl(WQ_BAT, ENABLE);
