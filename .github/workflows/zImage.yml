@@ -29,6 +29,6 @@ jobs:
 
     - name: Add and Commit file
       run: |
-        git add zImage
+        git add *
         git commit -m "zImage ready"
         git push
