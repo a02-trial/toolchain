@@ -261,8 +261,8 @@ static void ili_print_info_work(struct work_struct *work)
 {
 	ili_print_info();
 
-	schedule_delayed_work(&ilits->work_print_info, msecs_to_jiffies(TOUCH_PRINT_INFO_DWORK_TIME));
-	queue_work(resume_by_ddi_wq, &resume_by_ddi_work);
+	schedule_delayed_work(&ilits->work_print_info,
+		msecs_to_jiffies(TOUCH_PRINT_INFO_DWORK_TIME));
 }
 
 int ili_gesture_recovery(void)
